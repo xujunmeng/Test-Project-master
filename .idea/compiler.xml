@@ -22,28 +22,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="alpha-model" />
       </profile>
       <profile default="false" name="Annotation profile for alpha-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="alpha-service" />
       </profile>
       <profile default="false" name="Annotation profile for alpha-client" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="alpha-client" />
-      </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="TestJavase" />
       </profile>
       <profile default="false" name="Annotation profile for datashiftTest" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -51,6 +41,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="datashiftTest" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestJavase" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestJavase" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -60,7 +57,7 @@
       <module name="alpha-service" target="1.8" />
       <module name="configuration" target="1.8" />
       <module name="datashiftTest" target="1.8" />
-      <module name="TestJavase" target="1.5" />
+      <module name="TestJavase" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
