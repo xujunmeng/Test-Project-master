@@ -1,0 +1,8 @@
+package org.apache.ignite.examples.java8.datagrid;
+/**
+@author junmeng.xu
+@date  2016年6月3日下午1:27:57
+ */
+public class CacheAffinityExample {
+
+}

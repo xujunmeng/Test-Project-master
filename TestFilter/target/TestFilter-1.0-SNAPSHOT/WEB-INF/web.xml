@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+           version="3.0">
+
+    <filter>
+        <filter-name>Demo1Filter</filter-name>
+        <filter-class>第一个实例.Demo1Filter</filter-class>
+        <init-param>
+            <param-name>param1</param-name>
+            <param-value>value在这里呢</param-value>
+        </init-param>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>Demo1Filter</filter-name>
+        <url-pattern>/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher> <!-- 没有配置dispatcher就是默认request方式的 -->
+        <dispatcher>FORWARD</dispatcher>
+        <dispatcher>ERROR</dispatcher>
+        <dispatcher>INCLUDE</dispatcher>
+    </filter-mapping>
+
+
+    <filter>
+        <filter-name>LogMDCFilter</filter-name>
+        <filter-class>第二个实例.LogMDCFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>LogMDCFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher> <!-- 没有配置dispatcher就是默认request方式的 -->
+        <dispatcher>FORWARD</dispatcher>
+        <dispatcher>ERROR</dispatcher>
+        <dispatcher>INCLUDE</dispatcher>
+    </filter-mapping>
+
+</web-app>

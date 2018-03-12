@@ -1,0 +1,31 @@
+package cn.relinson.commons;
+
+import java.io.IOException;
+
+
+public class Base64 {
+
+	static BASE64Encoder encoder = new BASE64Encoder();
+	static BASE64Decoder decoder = new BASE64Decoder();
+
+	static public String encode(String str) {
+		return encoder.encode(str.getBytes());
+	}
+
+	static public String encode2(String str) {
+		return encoder.encode(encoder.encode(str.getBytes()).getBytes());
+	}
+
+	static public String decode(String str) {
+		try {
+			return decoder.decodeBuffer(str).toString();
+		} catch (IOException e) {
+			throw new RuntimeException("解密失败:", e);
+		}
+	}
+
+	public static void main(String[] args) {
+		System.out.println(Base64.encode("a"));
+		System.out.println(Base64.decode(Base64.encode("relinson1")));
+	}
+}

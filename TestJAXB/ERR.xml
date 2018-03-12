@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Response service="OrderConfirmService">
+    <Head>ERR</Head>
+    <ERROR code="8028">客户未配置此业务</ERROR>
+</Response>

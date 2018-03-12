@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TestDataStream:war">
+    <output-path>$PROJECT_DIR$/../TestDataStream/target</output-path>
+    <root id="archive" name="TestDataStream-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="TestDataStream:war exploded" />
+    </root>
+  </artifact>
+</component>

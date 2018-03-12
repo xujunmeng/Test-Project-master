@@ -1,0 +1,11 @@
+package ff;
+/**
+@author junmeng.xu
+@date  2015年12月25日下午5:43:33
+ */
+public class CustomerContext {
+	
+	public static final String DATA_SOURCE_2 = "springOracle2";
+	
+	public static final String DATA_SOURCE_220 = "springOracle220";
+}

@@ -1,0 +1,23 @@
+package 第一个示例;
+/**
+@author junmeng.xu
+@date  2016年10月19日上午11:03:18
+ */
+public class Main {
+
+	//这里是SMTP发送服务器的协议
+	public static final String HOST_NAME = "smtp.163.com";
+	
+	//登陆邮件服务器的用户名、密码、nicheng
+	public static final String USERNAME = "xujunmeng2012@163.com";
+	
+	public static final String PASSWORD = "xjm2263192721";
+	
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+    <bean id="announceStock"
+          class="com.csf.cloud.service.announce.AnnounceStock">
+        <property name="tbText0042Dao" ref="tbText0042Dao" />
+        <property name="announcementStockDao" ref="announcementStockDao" />
+        <property name="tbText0043Dao" ref="tbText0043Dao" />
+        <property name="dictAnnounceRuleDao" ref="dictAnnounceRuleDao" />
+        <property name="baseDictMarketDao" ref="baseDictMarketDao" />
+        <property name="tbText0047Dao" ref="tbText0047Dao" />
+        <property name="baseStockDao" ref="baseStockDao"/>
+        <property name="baseBondDao" ref="baseBondDao"/>
+        <property name="dictAnnounceCatalogDao" ref="dictAnnounceCatalogDao"/>
+    </bean>
+
+    <bean id="announceExecute" class="com.csf.cloud.service.announce.AnnounceExecute">
+        <property name="announceStock" ref="announceStock"/>
+    </bean>
+
+    <bean id="announceTriggerExecute" class="com.csf.cloud.service.announce.AnnounceTriggerExecute">
+        <property name="announceStock" ref="announceStock"/>
+    </bean>
+
+
+    </beans>

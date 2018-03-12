@@ -1,0 +1,18 @@
+package e;
+/**
+@author junmeng.xu
+@date  2016年1月8日上午11:13:13
+ */
+public class Test {
+	public static void main(String[] args) {
+		
+		String str = "非日常生活消费品指数";
+		if(str.equals("非日常生活消费品")){
+			String replace = str.replace("指数","");
+			String replace2 = replace.replace("生活", "");
+			System.out.println(replace2);
+			
+		}
+	}
+
+}

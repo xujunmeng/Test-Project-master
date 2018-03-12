@@ -1,0 +1,9 @@
+2017-05-26 18:51:44 [ main ] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-05-26 18:51:44 [ main ] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@ca263c2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@589b3632, org.springframework.test.context.support.DirtiesContextTestExecutionListener@45f45fa1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4c6e276e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@534df152]
+2017-05-26 18:51:44 [ main ] Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-05-26 18:51:44 [ main ] Refreshing org.springframework.context.support.GenericApplicationContext@4c15e7fd: startup date [Fri May 26 18:51:44 CST 2017]; root of context hierarchy
+2017-05-26 18:51:45 [ main ] Loading properties file from class path resource [jdbc.properties]
+2017-05-26 18:51:45 [ main ] Loading properties file from class path resource [jdbc.properties]
+2017-05-26 18:51:57 [ main ] getMatchCount sql :  SELECT count(*) FROM t_user  WHERE user_name =? and password=? 
+2017-05-26 18:52:04 [ main ] getMatchCount sql :  SELECT count(*) FROM t_user  WHERE user_name =? and password=? 
+2017-05-26 18:52:06 [ Thread-0 ] Closing org.springframework.context.support.GenericApplicationContext@4c15e7fd: startup date [Fri May 26 18:51:44 CST 2017]; root of context hierarchy

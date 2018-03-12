@@ -1,0 +1,22 @@
+package common;
+/**
+@author junmeng.xu
+@date  2016年7月29日上午10:55:48
+ */
+public class DateUtils {
+	/**
+	 * 获取给定日期前后几天日期
+	 * 
+	 * @param date
+	 *            给定日期
+	 * @param days
+	 *            日数，正数是日期往后推，负数是日期往前推
+	 * @return
+	 */
+	public static Date getPreOrNextDate(Date date, int days) {
+		Calendar calendar = GregorianCalendar.getInstance();
+		calendar.setTime(date);
+		calendar.add(Calendar.DATE, days);
+		return calendar.getTime();
+	}
+}

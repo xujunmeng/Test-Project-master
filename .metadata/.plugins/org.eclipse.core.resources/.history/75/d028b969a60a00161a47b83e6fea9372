@@ -1,0 +1,29 @@
+package javaStr;
+
+import org.junit.Test;
+
+
+/**
+@author junmeng.xu
+@date  2016年4月7日下午6:21:27
+ */
+public class MainString {
+
+	public static void main(String[] args) {
+		
+		String str = ",2323,2323,2323";
+		String str2 = "2015-01-05000007";
+		int m = 1;
+		for(int i = 0 ; i<1000 ; i++){
+		}
+	}
+	
+	@Test
+	public void test(){
+		String str = "/announce/cn/20160408/f3edcf1aab5b73d9c7370aa3fc22f83e.pdf";
+		String[] split = str.split("/");
+		String string = split[split.length-1];
+		System.out.println(string);
+	}
+	
+}

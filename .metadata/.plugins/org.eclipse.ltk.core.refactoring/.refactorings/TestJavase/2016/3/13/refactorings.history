@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void test1()&apos; from &apos;javaDate.Main.main()&apos; to &apos;javaDate.Main&apos;&#x0D;&#x0A;- Original project: &apos;TestJavase&apos;&#x0D;&#x0A;- Method name: &apos;test1&apos;&#x0D;&#x0A;- Destination type: &apos;javaDate.Main&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;test1&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src\/main\/java&lt;javaDate{Main.java" name="test1" replace="false" selection="292 419" stamp="1458540644417" version="1.0" visibility="2"/>
+</session>

@@ -1,0 +1,90 @@
+package javaStr;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Locale;
+import java.util.Set;
+
+import org.junit.Test;
+
+
+/**
+@author junmeng.xu
+@date  2016年4月7日下午6:21:27
+ */
+public class MainString {
+
+	public static void main(String[] args) {
+		
+		String str = ",2323,2323,2323";
+		String str2 = "2015-01-05000007";
+		int m = 1;
+		for(int i = 0 ; i<1000 ; i++){
+		}
+	}
+	
+	@Test
+	public void test(){
+		String str = "/announce/cn/20160408/f3edcf1aab5b73d9c7370aa3fc22f83e.pdf";
+		String[] split = str.split("/");
+		String string = split[split.length-2];
+		System.out.println(string);
+	}
+	
+	@Test
+	public void test2(){
+		String str = "20160408";
+		String str2 = "20160409";
+		String str3 = "20160508";
+		String str4 = "20160509";
+		String str5 = "20150508";
+		String str6 = "20150509";
+		Set<String> set = new HashSet<String>();
+		set.add(str);
+		set.add(str2);
+		set.add(str3);
+		set.add(str4);
+		set.add(str5);
+		set.add(str6);
+		Object[] array = set.stream().sorted().toArray();
+		for (Object object : array) {
+			System.out.println(object);
+		}
+		System.out.println("=========");
+		System.out.println(array[0]);
+		System.out.println(array[array.length-1]);
+		
+	}
+	@Test
+	public void test3() throws ParseException{
+		String date = "Apr 10, 2016 2:37:47 PM";
+		SimpleDateFormat sdf = new SimpleDateFormat("MMM dd yyyy HH:mm:ss zz",Locale.US);
+	    
+	    Date d=sdf.parse(date);
+
+	    sdf=new SimpleDateFormat("yyyyMMdd");
+
+	    System.out.println(sdf.format(d));
+		
+	}
+	@Test
+	public void test4(){
+		List<String> list = new ArrayList<String>();
+		list.add("asdf");
+		list.add("234");
+		String join = String.join(",", list);
+		System.out.println(join);
+	}
+	@Test
+	public void test5(){
+		String arr[] = new String[]{"1234"};
+		String string = arr[0];
+		System.out.println(string);
+		System.out.println(arr.length);
+	}
+	
+}

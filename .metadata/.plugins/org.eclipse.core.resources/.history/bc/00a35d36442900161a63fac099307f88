@@ -1,0 +1,20 @@
+package first.simple;
+
+import org.apache.ignite.Ignition;
+
+/**
+@author junmeng.xu
+@date  2016年6月3日下午12:28:14
+ */
+public class IgniteLambdaTest {
+
+	public static void main(String[] args) {
+		
+		new IgniteLambdaTest().run();
+		
+	}
+	
+	protected void run(){
+	}
+	
+}

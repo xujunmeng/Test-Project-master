@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 配置成debug可以查看log4j的装配过程，设置成OFF，即可关闭状态日志 -->
+<configuration status="off">
+    <appenders>
+        <!-- 打印 Console-->
+        <Console name="console" target="SYSTEM_OUT">
+            <ThresholdFilter level="trace" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="%d %-5p [%t:%c]:%L -%m%n"/>
+        </Console>
+
+        <!--         <File name="log" fileName="logs/crawler.log" append="true">
+                    <PatternLayout pattern="%d %-5p [%t:%c]:%L -%m%n"/>
+                </File> -->
+
+        <RollingFile name="infoLog" fileName="logs/log.log"
+                     filePattern="logs/info/$${date:yyyy-MM-dd}/log-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="%d %-5p [%t:%c]:%L -%m%n"/>
+            <!-- 一共生成多少个压缩文件，如果压缩文件个数超出10个的话会覆盖之前的-->
+            <DefaultRolloverStrategy max="10"/>
+            <!-- 日志达到100mb就会压缩 压缩后大小为600多kb吧，反正压缩效果非常好-->
+            <SizeBasedTriggeringPolicy size="100 MB" />
+        </RollingFile>
+
+        <RollingFile name="errorLog" fileName="logs/error.log"
+                     filePattern="logs/$${date:yyyy-MM-dd}/error-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="%d %-5p [%t:%c]:%L -%m%n"/>
+            <DefaultRolloverStrategy max="10"/>
+            <SizeBasedTriggeringPolicy size="100 MB" />
+        </RollingFile>
+
+        <!-- 采集日志 -->
+        <RollingFile name="collectLog" fileName="logs/collect.log"
+                     filePattern="logs/collect/$${date:yyyy-MM-dd}/collect-%d{yyyy-MM-dd}-%i.log.gz" immediateFlush="false">
+            <PatternLayout pattern="%d %-5p [%t:%c]:%L -%m%n"/>
+            <DefaultRolloverStrategy max="10"/>
+            <SizeBasedTriggeringPolicy size="100MB" />
+        </RollingFile>
+
+        <!-- 登录日志采集  immediateFlush="false" 不会马上刷到磁盘-->
+        <RollingFile name="loginCollectLog" fileName="logs/loginCollect.log"
+                     filePattern="logs/loginCollect/$${date:yyyy-MM-dd}/loginCollect-%d{yyyy-MM-dd}-%i.log.gz" immediateFlush="false">
+            <PatternLayout pattern="%m%n"/>
+            <DefaultRolloverStrategy max="10"/>
+            <SizeBasedTriggeringPolicy size="100MB" />
+            <!-- 过滤warn以上的日志 -->
+            <ThresholdFilter level="warn" onMatch="DENY" onMismatch="NEUTRAL"/>
+            <!-- <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY"/> -->
+        </RollingFile>
+
+        <!-- 需要异步打印的日志 -->
+        <Async name="loginCollectLogAsync">
+            <AppenderRef ref="loginCollectLog"/>
+        </Async>
+        <Async name="errorLogAsync">
+            <AppenderRef ref="errorLog"/>
+        </Async>
+    </appenders>
+
+    <loggers>
+        <!-- 记录指定某个类中的info属性的日志  additivity="true"的情况下它所打印的日志也会被root下面的日志所打印，如果为false那么root不会重复打印-->
+        <logger name="com.Log4jTest" level="info" additivity="true">
+            <appender-ref ref="loginCollectLogAsync"/>
+        </logger>
+
+        <!-- 登录日志采集 -->
+        <logger name="com.LoginServiceImplTest2_AsyncLog" level="info" additivity="true">
+            <appender-ref ref="loginCollectLogAsync"/>
+        </logger>
+        <root level="info">
+            <appender-ref ref="infoLog" level = "info"/>
+            <appender-ref ref="errorLogAsync" level = "warn"/>
+            <appender-ref ref="console" level = "info"/>
+        </root>
+    </loggers>
+</configuration>

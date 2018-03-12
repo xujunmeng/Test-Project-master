@@ -1,0 +1,23 @@
+package entity;
+
+/**
+ * @author junmeng.xu
+ * @date 2016年7月28日下午5:14:23
+ */
+public class TbText0042 {
+	private String obTextid0042;
+	private String f008v0042;
+	private String f001v0042;
+	private Timestamp f002d0042;
+	private Timestamp f003d0042;
+	private String f004v0042;
+	private Blob f006b0042;
+	private Long f007n0042;
+	private String obIsvalid0042;
+	private Timestamp obRectime0042;
+	private Timestamp obModtime0042;
+	private String obMemo0042;
+	private String obSeqid;
+	private String obSortcode0043;
+	private String obSeccode0045;
+}

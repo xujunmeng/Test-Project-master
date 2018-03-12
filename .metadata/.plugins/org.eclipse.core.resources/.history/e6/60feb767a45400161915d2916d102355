@@ -1,0 +1,25 @@
+package handler;
+import java.util.Date;
+import java.util.Set;
+
+/**
+@author junmeng.xu
+@date  2016年7月28日下午5:05:32
+ */
+public class AnnounceStock extends AbstractAnnounce {
+
+	protected TbText0042Dao tbText0042Dao;
+	
+	@Override
+	protected Set<String> getSidsFromJuchao(Date fromDate, Date toDate) {
+		return tbText0042Dao.getSidsFromJuchao(fromDate, toDate);
+	}
+
+	@Override
+	protected Set<String> removeExistsData(Date fromDate, Date toDate,
+			Set<String> sids) {
+		
+		return null;
+	}
+
+}

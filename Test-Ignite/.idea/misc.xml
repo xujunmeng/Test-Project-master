@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../Test-Maven-Web" />
+    <file type="web" url="file://$PROJECT_DIR$/../TestDataStream" />
+    <file type="web" url="file://$PROJECT_DIR$/../TestOracle" />
+    <file type="web" url="file://$PROJECT_DIR$/../TestOracle2" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/../datashiftTest/pom.xml" />
+        <option value="$PROJECT_DIR$/../DesignPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/../scalaDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../scalaLianxi/pom.xml" />
+        <option value="$PROJECT_DIR$/../Test-Maven-Web/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestAlgorithm/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestAop/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestBatch/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestCommons-lang/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestCSF/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestDataStream/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestDbUtils/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestEasyMock/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestEmail/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestExcel/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestGoogleGuava/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestJava8/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestJavase/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestJavaseClassLoaderReflect/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestJavaseCollection/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestJavaseIO/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestJavatuples/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestJMS/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestKafka/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestMavenPom/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestMemcached/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestMongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestMultiThread/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestMyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestMyBatis2/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestNetworkProgram/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestOracle/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestOracle2/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestQuartz/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestRedis/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestRedis2/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestRedis3/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestResteasy/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestS3/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestSolrj/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestSolrWebDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestSpringActiveMQQuartz/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestSpringJdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestSpringMyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestThread/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestThrift/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestWebService/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestZookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestResteasyJetty/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestNetty/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestJsoup/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestConsulMotan/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestSpringTransaction/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestSpringTransaction2/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestTXT2DOC/pom.xml" />
+        <option value="$PROJECT_DIR$/../TestPassage/pom.xml" />
+        <option value="$PROJECT_DIR$/../Test-Spring-boot/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../DesignPattern/Reconsitution.iml" filepath="$PROJECT_DIR$/../DesignPattern/Reconsitution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestSpringActiveMQQuartz/Test.iml" filepath="$PROJECT_DIR$/../TestSpringActiveMQQuartz/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test-Ignite.iml" filepath="$PROJECT_DIR$/Test-Ignite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Test-Maven-Web/Test-Maven-Web.iml" filepath="$PROJECT_DIR$/../Test-Maven-Web/Test-Maven-Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Test-Spring-boot/Test-Spring-boot.iml" filepath="$PROJECT_DIR$/../Test-Spring-boot/Test-Spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestAlgorithm/TestAlgorithm.iml" filepath="$PROJECT_DIR$/../TestAlgorithm/TestAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestBatch/TestBatch.iml" filepath="$PROJECT_DIR$/../TestBatch/TestBatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestCSF/TestCSF.iml" filepath="$PROJECT_DIR$/../TestCSF/TestCSF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestCommons-lang/TestCommons-lang.iml" filepath="$PROJECT_DIR$/../TestCommons-lang/TestCommons-lang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestConsulMotan/TestConsulMotan.iml" filepath="$PROJECT_DIR$/../TestConsulMotan/TestConsulMotan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestDataStream/TestDataStream.iml" filepath="$PROJECT_DIR$/../TestDataStream/TestDataStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestDbUtils/TestDbUtils.iml" filepath="$PROJECT_DIR$/../TestDbUtils/TestDbUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestEasyMock/TestEasyMock.iml" filepath="$PROJECT_DIR$/../TestEasyMock/TestEasyMock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestEmail/TestEmail.iml" filepath="$PROJECT_DIR$/../TestEmail/TestEmail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestExcel/TestExcel.iml" filepath="$PROJECT_DIR$/../TestExcel/TestExcel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestGoogleGuava/TestGoogleGuava.iml" filepath="$PROJECT_DIR$/../TestGoogleGuava/TestGoogleGuava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestJMS/TestJMS.iml" filepath="$PROJECT_DIR$/../TestJMS/TestJMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestJava8/TestJava8.iml" filepath="$PROJECT_DIR$/../TestJava8/TestJava8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestJavase/TestJavase.iml" filepath="$PROJECT_DIR$/../TestJavase/TestJavase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestJavaseClassLoaderReflect/TestJavaseClassLoaderReflect.iml" filepath="$PROJECT_DIR$/../TestJavaseClassLoaderReflect/TestJavaseClassLoaderReflect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestJavaseCollection/TestJavaseCollection.iml" filepath="$PROJECT_DIR$/../TestJavaseCollection/TestJavaseCollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestJavaseIO/TestJavaseIO.iml" filepath="$PROJECT_DIR$/../TestJavaseIO/TestJavaseIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestJavatuples/TestJavatuples.iml" filepath="$PROJECT_DIR$/../TestJavatuples/TestJavatuples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestJsoup/TestJsoup.iml" filepath="$PROJECT_DIR$/../TestJsoup/TestJsoup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestKafka/TestKafka.iml" filepath="$PROJECT_DIR$/../TestKafka/TestKafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestMavenPom/TestMavenPom.iml" filepath="$PROJECT_DIR$/../TestMavenPom/TestMavenPom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestMemcached/TestMemcached.iml" filepath="$PROJECT_DIR$/../TestMemcached/TestMemcached.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestMongodb/TestMongodb.iml" filepath="$PROJECT_DIR$/../TestMongodb/TestMongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestMultiThread/TestMultiThread.iml" filepath="$PROJECT_DIR$/../TestMultiThread/TestMultiThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestMyBatis/TestMyBatis.iml" filepath="$PROJECT_DIR$/../TestMyBatis/TestMyBatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestMyBatis2/TestMyBatis2.iml" filepath="$PROJECT_DIR$/../TestMyBatis2/TestMyBatis2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestNetty/TestNetty.iml" filepath="$PROJECT_DIR$/../TestNetty/TestNetty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestNetworkProgram/TestNetworkProgram.iml" filepath="$PROJECT_DIR$/../TestNetworkProgram/TestNetworkProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestOracle/TestOracle.iml" filepath="$PROJECT_DIR$/../TestOracle/TestOracle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestOracle2/TestOracle2.iml" filepath="$PROJECT_DIR$/../TestOracle2/TestOracle2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestPassage/TestPassage.iml" filepath="$PROJECT_DIR$/../TestPassage/TestPassage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestQuartz/TestQuartz.iml" filepath="$PROJECT_DIR$/../TestQuartz/TestQuartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestRedis/TestRedis.iml" filepath="$PROJECT_DIR$/../TestRedis/TestRedis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestRedis2/TestRedis2.iml" filepath="$PROJECT_DIR$/../TestRedis2/TestRedis2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestRedis3/TestRedis3.iml" filepath="$PROJECT_DIR$/../TestRedis3/TestRedis3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestResteasy/TestResteasy.iml" filepath="$PROJECT_DIR$/../TestResteasy/TestResteasy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestResteasyJetty/TestResteasyJetty.iml" filepath="$PROJECT_DIR$/../TestResteasyJetty/TestResteasyJetty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestS3/TestS3.iml" filepath="$PROJECT_DIR$/../TestS3/TestS3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestSolrWebDemo/TestSolrSpring.iml" filepath="$PROJECT_DIR$/../TestSolrWebDemo/TestSolrSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestSolrj/TestSolrj.iml" filepath="$PROJECT_DIR$/../TestSolrj/TestSolrj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestSpringTransaction/TestSpringTransaction.iml" filepath="$PROJECT_DIR$/../TestSpringTransaction/TestSpringTransaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestSpringTransaction2/TestSpringTransaction2.iml" filepath="$PROJECT_DIR$/../TestSpringTransaction2/TestSpringTransaction2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestTXT2DOC/TestTXT2DOC.iml" filepath="$PROJECT_DIR$/../TestTXT2DOC/TestTXT2DOC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestThread/TestThread.iml" filepath="$PROJECT_DIR$/../TestThread/TestThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestWebService/TestWebService.iml" filepath="$PROJECT_DIR$/../TestWebService/TestWebService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestZookeeper/TestZookeeper.iml" filepath="$PROJECT_DIR$/../TestZookeeper/TestZookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestConsulMotan/client-demo-dao/client-demo-dao.iml" filepath="$PROJECT_DIR$/../TestConsulMotan/client-demo-dao/client-demo-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../configuration/configuration.iml" filepath="$PROJECT_DIR$/../configuration/configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../datashiftTest/datashiftTest.iml" filepath="$PROJECT_DIR$/../datashiftTest/datashiftTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scalaDemo/demo.iml" filepath="$PROJECT_DIR$/../scalaDemo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scalaLianxi/demo (1).iml" filepath="$PROJECT_DIR$/../scalaLianxi/demo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestConsulMotan/server-demo-dao/server-demo-dao.iml" filepath="$PROJECT_DIR$/../TestConsulMotan/server-demo-dao/server-demo-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestAop/testAop.iml" filepath="$PROJECT_DIR$/../TestAop/testAop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestSpringJdbcTemplate/testSpring02.iml" filepath="$PROJECT_DIR$/../TestSpringJdbcTemplate/testSpring02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestSpringMyBatis/testSpring03.iml" filepath="$PROJECT_DIR$/../TestSpringMyBatis/testSpring03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestThrift/thrift.iml" filepath="$PROJECT_DIR$/../TestThrift/thrift.iml" />
+    </modules>
+  </component>
+</project>

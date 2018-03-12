@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:aop="http://www.springframework.org/schema/aop" 
+	
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+         http://www.springframework.org/schema/beans/spring-beans-4.0.xsd 
+         http://www.springframework.org/schema/aop
+ 		 http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+
+	<!-- 数据库配置 开始 -->
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dynamicDataSource" />
+	</bean>
+
+	<!-- inventory sql session factory -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">  
+        <property name="dataSource" ref="dynamicDataSource"/>
+		<property name="mapperLocations" value = "classpath:mybatis/*Mapper.xml"/>
+    </bean>
+
+
+	<!-- master data source -->
+	<bean id="masterDataSource" class="com.alibaba.druid.pool.DruidDataSource">
+		<property name="driverClassName" value="${inventory.jdbc.driver}" />
+		<property name="url" value="${inventory.jdbc.url}" />
+		<property name="username" value="${inventory.jdbc.username}"/>
+		<property name="password" value="${inventory.jdbc.password}"/>
+		
+		<!-- 配置监控统计拦截的filters -->
+		<property name="filters" value="stat" />
+
+		<!--initialSize: 初始化连接--> 
+		<property name="initialSize" value="${inventory.jdbc.initialSize}"/> 
+		<!--minIdle: 最小空闲连接--> 
+		<property name="minIdle" value="${inventory.jdbc.minIdle}"/> 
+		<!--maxActive: 最大连接数量-->
+		<property name="maxActive" value="${inventory.jdbc.maxActive}"/>
+
+		<!--maxWait: 超时等待时间以毫秒为单位 60000毫秒/1000等于60秒--> 
+		<property name="maxWait" value="30000"/>
+
+		<property name="testOnBorrow" value="false" />
+		<property name="testWhileIdle" value="true" />
+		<property name="validationQuery" value="select 1" />
+		<property name="timeBetweenEvictionRunsMillis" value="30000" />
+		<property name="numTestsPerEvictionRun" value="8" />
+	</bean>
+	
+	<!-- slave data source -->
+	<bean id="slaveDataSource" class="com.alibaba.druid.pool.DruidDataSource">
+		<property name="driverClassName" value="${inventory.slave.jdbc.driver}" />
+		<property name="url" value="${inventory.slave.jdbc.url}" />
+		<property name="username" value="${inventory.slave.jdbc.username}"/>
+		<property name="password" value="${inventory.slave.jdbc.password}"/>
+
+        <!-- 配置监控统计拦截的filters -->
+		<property name="filters" value="stat" />
+
+		<!--initialSize: 初始化连接--> 
+		<property name="initialSize" value="${inventory.jdbc.initialSize}"/> 
+		<!--minIdle: 最小空闲连接--> 
+		<property name="minIdle" value="${inventory.jdbc.minIdle}"/> 
+		<!--maxActive: 最大连接数量-->
+		<property name="maxActive" value="${inventory.jdbc.maxActive}"/>
+
+		<!--maxWait: 超时等待时间以毫秒为单位 60000毫秒/1000等于60秒--> 
+		<property name="maxWait" value="30000"/>
+
+		<property name="testOnBorrow" value="false" />
+		<property name="testWhileIdle" value="true" />
+		<property name="validationQuery" value="select 1" />
+		<property name="timeBetweenEvictionRunsMillis" value="30000" />
+		<property name="numTestsPerEvictionRun" value="8" />
+	</bean>
+
+	<bean id="dynamicDataSource" class="com.aihuishou.service.extension.readwrite.ReadWriteRoutingDataSource">  
+       <!-- 通过key-value关联数据源 -->  
+       <property name="readDataSourceMap">  
+           <map>  
+               <entry value-ref="slaveDataSource" key="slaveDataSource"></entry>  
+           </map>  
+       </property>  
+       <property name="writeDataSource" ref="masterDataSource" />      
+    </bean> 
+   
+    <!-- 读写分离-->
+	<bean id="readWriteDataSourceAspect" class="com.aihuishou.service.extension.readwrite.ReadWriteDataSourceAspect" />
+
+	<aop:config expose-proxy="true">
+		<aop:pointcut id="txPointcut" expression="execution(* com.aihuishou.service.inventory.dao..*.*(..))" />
+
+		<aop:aspect order="-2147483648" ref="readWriteDataSourceAspect">
+			<aop:around pointcut-ref="txPointcut" method="determineReadOrWriteDB" />
+		</aop:aspect>
+	</aop:config>
+
+</beans>

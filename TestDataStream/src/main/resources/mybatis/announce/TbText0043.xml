@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+        namespace="com.csf.cloud.dao.juchao.announce.TbText0043Dao">
+
+    <select id="getSortCodeIds" resultType="String">
+        select WM_CONCAT(OB_SORTCODE_0043) OB_SORTCODE_0043
+        from juchao.TB_TEXT_0043
+        where
+        OB_TEXTID_0043=#{sids}
+    </select>
+
+    </mapper>

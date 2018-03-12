@@ -1,0 +1,13 @@
+package dao;
+
+import entity.TbText0042;
+
+/**
+@author junmeng.xu
+@date  2016年7月28日下午5:11:12
+ */
+public interface TbText0042Dao{
+
+	
+	
+}

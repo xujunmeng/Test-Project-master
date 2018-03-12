@@ -1,0 +1,13 @@
+import java.util.Date;
+
+import org.apache.ibatis.annotations.Param;
+
+/**
+@author junmeng.xu
+@date  2016年7月28日下午5:08:04
+ */
+public interface BaseJuchaoDao<T> {
+
+	int count(@Param("fromDate") Date fromDate, @Param("toDate") Date toDate);
+	
+}

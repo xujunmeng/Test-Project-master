@@ -1,0 +1,15 @@
+package 练习的例子;
+/**
+@author junmeng.xu
+@date  2016年10月20日下午5:13:40
+ */
+public class SubClass extends FatherClass{
+
+	
+	
+	public static void test2(){
+		long aa = sadf;
+		long asdfs = serialVersionUID;
+	}
+	
+}

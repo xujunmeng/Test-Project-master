@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.junmeng.dao.ICsfUserDao">
+
+
+    <insert id="insertCsfUser" parameterType="com.junmeng.entity.CsfUser">
+        insert into csfuser (uid, name, age, represent, crt)
+        values (#{uid}, #{name}, #{age}, #{represent}, #{crt})
+    </insert>
+
+    <delete id="delCsfUserByUid" parameterType="String">
+        delete from csfuser
+        where uid = #{uid}
+    </delete>
+
+    <update id="updateCsfUser" parameterType="com.junmeng.entity.CsfUser">
+        update csfuser
+        set
+        <if test="name != null">name = #{name},</if>
+        <if test="age != null">age = #{age},</if>
+        <if test="represent != null">represent = #{represent}</if>
+        where uid = #{uid}
+    </update>
+
+    <select id="findCsfUser" resultType="com.junmeng.entity.CsfUser">
+        select uid, name, age, represent, crt
+        from csfuser
+        order by crt DESC
+    </select>
+
+
+
+</mapper>

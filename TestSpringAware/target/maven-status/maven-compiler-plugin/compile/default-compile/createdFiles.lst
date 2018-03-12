@@ -1,0 +1,7 @@
+第一个实例ApplicationContextAware\Test.class
+第一个实例ApplicationContextAware\PropertyGettedEvent.class
+第二个实例BeanPostProcessor\HelloWorld.class
+第二个实例BeanPostProcessor\InitHelloWorld.class
+第二个实例BeanPostProcessor\MainApp.class
+第一个实例ApplicationContextAware\HelloBean.class
+第一个实例ApplicationContextAware\PropertyGettedListener.class

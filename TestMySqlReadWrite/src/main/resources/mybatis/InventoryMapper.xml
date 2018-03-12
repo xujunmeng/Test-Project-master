@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.aihuishou.service.inventory.dao.InventoryMapper" >
+  <resultMap id="BaseResultMap" type="com.aihuishou.service.inventory.model.Inventory" >
+    <id column="inventory_id" property="inventoryId" jdbcType="BIGINT" />
+    <result column="inventory_status" property="inventoryStatus" jdbcType="INTEGER" />
+    <result column="inventory_serial_number" property="inventorySerialNumber" jdbcType="NVARCHAR" />
+    <result column="inventory_product_id" property="inventoryProductId" jdbcType="INTEGER" />
+    <result column="inventory_model_id" property="inventoryModelId" jdbcType="INTEGER" />
+    <result column="inventory_product_name" property="inventoryProductName" jdbcType="NVARCHAR" />
+    <result column="inventory_price_property_unit" property="inventoryPricePropertyUnit" jdbcType="NVARCHAR" />
+    <result column="inventory_extension_property_unit" property="inventoryExtensionPropertyUnit" jdbcType="NVARCHAR" />
+    <result column="inventory_price" property="inventoryPrice" jdbcType="INTEGER" />
+    <result column="inventory_shelf_id" property="inventoryShelfId" jdbcType="INTEGER" />
+    <result column="inventory_warehouse_id" property="inventoryWarehouseId" jdbcType="INTEGER" />
+    <result column="inventory_on_hand_quantity" property="inventoryOnHandQuantity" jdbcType="INTEGER" />
+    <result column="inventory_available_quantity" property="inventoryAvailableQuantity" jdbcType="INTEGER" />
+    <result column="inventory_operator_id" property="inventoryOperatorId" jdbcType="INTEGER" />
+    <result column="inventory_operation_datetime" property="inventoryOperationDatetime" jdbcType="TIMESTAMP" />
+    <result column="inventory_flags" property="inventoryFlags" jdbcType="INTEGER" />
+    <result column="inventory_enter_id" property="inventoryEnterId" jdbcType="INTEGER" />
+    <result column="inventory_enter_datetime" property="inventoryEnterDatetime" jdbcType="TIMESTAMP" />
+    <result column="inventory_outer_id" property="inventoryOuterId" jdbcType="INTEGER" />
+    <result column="inventory_outer_datetime" property="inventoryOuterDatetime" jdbcType="TIMESTAMP" />
+    
+    <result column="inventory_sku_id" property="inventorySkuId" jdbcType="INTEGER" />
+    <result column="inventory_level_id" property="inventoryLevelId" jdbcType="INTEGER" />
+    <result column="inventory_sku_name" property="inventorySkuName" jdbcType="NVARCHAR" />
+    <result column="inventory_level_name" property="inventoryLevelName" jdbcType="NVARCHAR" />
+    
+    <result column="inventory_shelf_code" property="inventoryShelfCode" jdbcType="NVARCHAR" />
+    <result column="inventory_imei" property="inventoryImei" jdbcType="NVARCHAR" />
+  </resultMap>
+  
+  <sql id="Base_Column_List" >
+    inventory_id, inventory_status, inventory_serial_number, inventory_product_id, inventory_model_id, 
+    inventory_product_name, inventory_price_property_unit, inventory_extension_property_unit, inventory_price, 
+    inventory_shelf_id, inventory_on_hand_quantity, inventory_available_quantity, inventory_operator_id, 
+    inventory_operation_datetime, inventory_flags,inventory_enter_id,inventory_enter_datetime,
+    inventory_outer_id,inventory_outer_datetime,inventory_warehouse_id,
+    inventory_sku_id,inventory_level_id,inventory_sku_name,inventory_level_name, inventory_shelf_code,
+    inventory_imei
+  </sql>
+  
+  <select id="getInventory" resultMap="BaseResultMap" >
+    select 
+    <include refid="Base_Column_List" />
+    from inventory
+    where inventory_id = #{inventoryId,jdbcType=BIGINT}
+  </select>
+
+</mapper>

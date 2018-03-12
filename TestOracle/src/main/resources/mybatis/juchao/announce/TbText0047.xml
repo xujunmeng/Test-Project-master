@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+	namespace="com.csf.cloud.dao.juchao.announce.TbText0047Dao">
+	
+	<select id="fetchJuchaoDatas"
+		resultType="com.csf.cloud.entity.juchao.announce.TbText0047">
+        <![CDATA[
+		select ob_sortcode_0047 as obSortcode0047,
+		       ob_parentcode_0047 as obParentcode0047,
+		       ob_sortname_0047 as obSortname0047,
+		       f001d_0047 as f001d0047,
+		       f002d_0047 as f002d0047 
+		from juchao.tb_text_0047
+        ]]>
+	</select>
+	
+</mapper>

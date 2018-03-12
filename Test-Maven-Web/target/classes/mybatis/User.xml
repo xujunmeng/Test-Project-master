@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.junmeng.dao.UserDao">
+
+	<select id="findUser" resultType="com.junmeng.entity.User">
+		select id, pkey, name, mail, nick_name, passwd, purl, phone, ph_state, ml_state, regist_type, regist_dt, login_dt
+		from user 
+		where phone = #{info} or mail = #{info} or name = #{info}
+	</select>
+
+	<insert id="regist" parameterType="com.junmeng.entity.User">
+		insert into user(pkey, name, mail, nick_name, passwd, purl, phone, ph_state, ml_state, regist_type, regist_dt, login_dt)
+		values(#{pkey}, #{name}, #{mail}, #{nick_name}, #{passwd}, #{purl}, #{phone}, #{ph_state}, #{ml_state}, #{regist_type}, now(), now())
+	</insert>
+
+	<update id="updateLastLoginTime">
+		update user
+		set login_dt = now()
+		where pkey = #{pkey}
+	</update>
+
+</mapper>

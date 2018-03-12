@@ -1,0 +1,36 @@
+package cc;
+
+import java.util.concurrent.CountDownLatch;
+
+/**
+@author junmeng.xu
+@date  2015年12月18日下午6:16:49
+ */
+public class Player implements Runnable {
+
+	private int id;
+	private CountDownLatch begin;
+	private CountDownLatch end;
+	public Player(int id, CountDownLatch begin, CountDownLatch end) {
+		super();
+		this.id = id;
+		this.begin = begin;
+		this.end = end;
+	}
+	
+
+
+	public void run() {
+
+		try {
+			begin.await();  //等待begin的状态为0
+			Thread.sleep((long) (Math.random() * 100));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	
+	
+}

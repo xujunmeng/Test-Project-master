@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="greetingBeforeAdvice" class="实例二.GreetingBeforeAdvice" />
+	<bean id="target" class="实例二.NaiveWaiter" />
+	<bean id="waiter" class="org.springframework.aop.framework.ProxyFactoryBean"
+		  	p:proxyInterfaces="实例二.Waiter"
+		  	p:interceptorNames="greetingBeforeAdvice"
+		  	p:target-ref="target"
+			/>
+	<!--
+	p:proxyInterfaces="实例二.Waiter"  指定代理的接口，如果是多个接口，请使用list元素
+	p:interceptorNames="greetingBeforeAdvice"  指定时候用的增强
+	p:target-ref="target"  指定对那个Bean进行代理
+
+	ProxyFactoryBean 使用了JDK的代理技术
+	 -->
+</beans>

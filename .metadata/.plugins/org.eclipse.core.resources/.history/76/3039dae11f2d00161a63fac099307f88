@@ -1,0 +1,28 @@
+package 计算的例子;
+
+import java.util.Arrays;
+
+import org.apache.ignite.Ignition;
+import org.apache.ignite.configuration.IgniteConfiguration;
+import org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi;
+import org.apache.ignite.spi.discovery.tcp.ipfinder.vm.TcpDiscoveryVmIpFinder;
+
+
+
+public class ClusterGroupExample {
+
+	public static void main(String[] args) {
+		
+		TcpDiscoverySpi spi = new TcpDiscoverySpi();
+		TcpDiscoveryVmIpFinder ipFinder = new TcpDiscoveryVmIpFinder();
+		// 设置预定义IP地址，注意端口或者端口范围是可选的。
+		ipFinder.setAddresses(Arrays.asList("192.168.1.43:47500", "192.168.100.42:47500"));
+		spi.setIpFinder(ipFinder);
+		IgniteConfiguration cfg = new IgniteConfiguration();
+		cfg.setDiscoverySpi(spi);
+		// 启动集群
+		Ignition.start(cfg);
+		
+	}
+	
+}

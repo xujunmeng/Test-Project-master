@@ -1,0 +1,42 @@
+package first.simple;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+import org.apache.ignite.Ignite;
+import org.apache.ignite.Ignition;
+import org.apache.ignite.lang.IgniteCallable;
+
+/**
+ * @author junmeng.xu
+ * @date 2016年6月3日上午11:04:28
+ */
+public class Main {
+
+	public static void main(String[] args) {
+
+		Ignite ignite = Ignition
+				.start("D:/javaWorkLianxi/Test-ignite/src/main/resources/config/default-config.xml");
+
+		Collection<IgniteCallable<Integer>> calls = new ArrayList<IgniteCallable<Integer>>();
+
+		for (final String word : "Count characters using callable".split(" ")) {
+			
+			calls.add(new IgniteCallable<Integer>() {
+				@Override
+				public Integer call() throws Exception {
+					return word.length();
+				}
+			});
+		}
+
+		Collection<Integer> collection = ignite.compute().call(calls);
+		
+		int sum = collection.stream().mapToInt(Integer::intValue).sum();
+		
+		System.out.println("Total number of characters is : " + sum + " .");
+		
+		
+	}
+
+}

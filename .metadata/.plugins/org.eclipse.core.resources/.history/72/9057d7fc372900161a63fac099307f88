@@ -1,0 +1,17 @@
+package 第一个例子;
+
+import org.apache.ignite.Ignition;
+
+/**
+@author junmeng.xu
+@date  2016年6月3日上午11:04:28
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Ignition.start("D:/javaWorkLianxi/Test-ignite/src/main/resources/config/default-config.xml")
+		
+	}
+	
+}

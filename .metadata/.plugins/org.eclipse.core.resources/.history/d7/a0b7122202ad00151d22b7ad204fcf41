@@ -1,0 +1,45 @@
+package ff;
+
+import javax.sql.DataSource;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+/**
+ * @author junmeng.xu
+ * @date 2015年12月25日下午5:55:07
+ */
+public class TransDao {
+
+	public static JdbcTemplate jdbcTemplate;
+	
+	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+		TransDao.jdbcTemplate = jdbcTemplate;
+	}
+	public void setJdbcTemplate2(JdbcTemplate jdbcTemplate) {
+		TransDao.jdbcTemplate = jdbcTemplate;
+	}
+
+	@SuppressWarnings("deprecation")
+	public void test1() {
+		String sql = "select count(*) from juchao.tb_text_0022";
+		int queryForInt = jdbcTemplate.queryForInt(sql);
+		System.out.println(queryForInt);
+	}
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext(
+				"applicationContext.xml");
+		DataSource dataSource1 = (DataSource) context.getBean(CustomerContext.DATA_SOURCE_220);
+		jdbcTemplate.setDataSource(dataSource1);
+		TransDao dao1 = (TransDao) context.getBean("TransDao", TransDao.class);
+		dao1.test1();
+		DataSource dataSource2 = (DataSource) context.getBean(CustomerContext.DATA_SOURCE_2);
+		jdbcTemplate.setDataSource(dataSource2);
+		TransDao dao2 = (TransDao) context.getBean("TransDao", TransDao.class);
+		dao2.test1();
+		
+		
+	}
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <mappers>
+    	<mapper resource="mybatis/juchao/fund/TbFund0056.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0058.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0061.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0074.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0209.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0219.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0220.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0222.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0225.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0233.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0235.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0236.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0593.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0610.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0615.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0693.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0592.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0575.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0591.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0223.xml"/>
+        <mapper resource="mybatis/juchao/fund/TbFund0062.xml"/>
+        
+		<mapper resource="mybatis/juchao/announce/TbText0042.xml"/>
+		<mapper resource="mybatis/juchao/announce/TbText0047.xml"/>
+		<mapper resource="mybatis/juchao/announce/TbText0043.xml"/>
+        
+        <mapper resource="mybatis/juchao/trade/TbTrade0170.xml"/>
+        <mapper resource="mybatis/juchao/trade/TbTrade0111.xml"/>
+        
+        <mapper resource="mybatis/juchao/company/TbCompany0052.xml"/>
+        <mapper resource="mybatis/juchao/company/TbCompany0083.xml"/>
+        <mapper resource="mybatis/juchao/company/TbCompany0084.xml"/>
+        <mapper resource="mybatis/juchao/company/TbCompany0089.xml"/>
+        <mapper resource="mybatis/juchao/company/TbCompany0090.xml"/>
+        <mapper resource="mybatis/juchao/company/TbCompany0091.xml"/>
+        <mapper resource="mybatis/juchao/company/TbCompany0096.xml"/>
+        <mapper resource="mybatis/juchao/company/TbCompany0137.xml"/>
+        
+        <mapper resource="mybatis/juchao/jpublic/TbPublic0008.xml"/>
+        
+        <mapper resource="mybatis/juchao/bond/TbBond0064.xml"/>
+        <mapper resource="mybatis/juchao/bond/TbBond0075.xml"/>
+        <mapper resource="mybatis/juchao/bond/TbBond0066.xml"/>
+        <mapper resource="mybatis/juchao/bond/TbBond0065.xml"/>
+        
+        <mapper resource="mybatis/juchao/bond/TbBond0067.xml"/>
+        <mapper resource="mybatis/juchao/bond/TbBond0079.xml"/>
+        <mapper resource="mybatis/juchao/bond/TbBond0117.xml"/>
+        <mapper resource="mybatis/juchao/bond/TbBond0570.xml"/>
+        
+        <mapper resource="mybatis/juchao/trade/TbTrade0339.xml"/>
+        <mapper resource="mybatis/juchao/trade/TbTrade0186.xml"/>
+        <mapper resource="mybatis/juchao/trade/TbTrade0082.xml"/>
+        <mapper resource="mybatis/juchao/company/TbCompany0124.xml"/>
+        <mapper resource="mybatis/juchao/company/TbCompany0085.xml"/>
+        <mapper resource="mybatis/juchao/company/TbCompany0086.xml"/>
+        
+        
+    </mappers>
+</configuration>

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Response service="OrderRvsCancelService" lang="zh_CN">
+    <Head>ERR</Head>
+    <Error>com.sf.module.bspcommon.exception.BspException: 8037</Error>
+</Response>

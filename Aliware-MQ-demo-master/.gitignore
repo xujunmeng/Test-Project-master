@@ -1,0 +1,11 @@
+.classpath
+.project
+.settings/
+/http/java-http-demo/target/
+/tcp/java-tcp-demo/target/
+*.log*
+*.iml
+.idea/*
+.idea
+*.versionsBackup
+*bin

@@ -1,0 +1,24 @@
+package w;
+
+import java.io.File;
+import java.io.FileWriter;
+
+public class temp {
+	public static void add(String a) throws Exception{
+		for (int i = 0; i < 100000000; i++) {
+			File file1 = new File(
+					"test.txt");
+			if (!file1.getParentFile().exists()) {
+				file1.getParentFile().mkdirs();
+				file1.createNewFile();
+			}
+			FileWriter wr = new FileWriter(file1, true);
+			wr.write("\r\n" + "名字 ：" + a + ":" +i + ";");
+			if (wr != null) {
+				wr.close();
+			}
+		}
+		
+		
+	}
+}

@@ -1,0 +1,8 @@
+com\baobaotao\web\LoginCommand.class
+com\baobaotao\domain\User.class
+com\baobaotao\dao\UserDao.class
+com\baobaotao\domain\LoginLog.class
+com\baobaotao\filter\LogMDCFilter.class
+com\baobaotao\service\UserService.class
+com\baobaotao\dao\LoginLogDao.class
+com\baobaotao\web\LoginController.class

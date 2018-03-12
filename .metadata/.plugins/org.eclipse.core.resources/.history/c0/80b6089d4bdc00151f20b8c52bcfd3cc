@@ -1,0 +1,28 @@
+package javaDate;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.apache.commons.lang3.StringUtils;
+
+/**
+@author junmeng.xu
+@date  2016年2月25日下午5:30:20
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Date date = new Date();
+		DateFormat format=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		String time2=new SimpleDateFormat("yyyy-MM-dd").format(date);
+		String time=format.format(date);
+		String[] split = StringUtils.split(time2, "-");
+		String join = StringUtils.join(split, null);
+		System.out.println(join);
+		System.out.println(time);
+		System.out.println(time2);
+		
+	}
+}

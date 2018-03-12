@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:aop="http://www.springframework.org/schema/aop"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+	<aop:config proxy-target-class="true">
+
+		<aop:pointcut id="greetToPointcut" expression="execution(* 实例九一个简单切面的配置.NaiveWaiter.greetTo(..))"/>
+
+		<aop:aspect ref="adviceMethods">
+			<aop:before method="preGreeting" pointcut-ref="greetToPointcut"/>
+		</aop:aspect>
+
+		<aop:aspect ref="adviceMethods">
+			<aop:after-returning method="afterReturning" pointcut-ref="greetToPointcut" returning="val" arg-names="val"/>
+		</aop:aspect>
+
+	</aop:config>
+
+	<bean id="adviceMethods" class="实例九一个简单切面的配置.AdviceMethods"/>
+	<bean id="naiveWaiter" class="实例九一个简单切面的配置.NaiveWaiter"/>
+	<bean id="naughtyWaiter" class="实例九一个简单切面的配置.NaughtyWaiter"/>
+
+
+</beans>

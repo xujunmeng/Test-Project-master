@@ -1,0 +1,17 @@
+package dao.juchao.announce;
+
+import java.util.Date;
+import java.util.Set;
+
+import org.apache.ibatis.annotations.Param;
+
+
+/**
+@author junmeng.xu
+@date  2016年7月28日下午5:11:12
+ */
+public interface TbText0042Dao{
+
+	Set<String> getSidsFromJuchao(@Param("fromDate") Date fromDate, @Param("toDate") Date toDate);
+	
+}

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Response service="RouteService">
+    <Head>OK</Head>
+    <Body>
+        <RouteResponse mailno="444832126102">
+            <Route remark="顺丰速运 已收取快件" accept_time="2017-04-25 15:12:34" accept_address="深圳市" opcode="50"/>
+            <Route remark="快件正送往顺丰店/站 " accept_time="2017-04-25 15:14:39" accept_address="深圳市" opcode="123"/>
+            <Route remark="快件到达顺丰店/站 " accept_time="2017-04-25 15:14:46" accept_address="深圳市" opcode="130"/>
+            <Route remark="正在派送途中,请您准备签收" accept_time="2017-04-25 15:14:51" accept_address="深圳市" opcode="44"/>
+            <Route remark="已签收,感谢使用顺丰,期待再次为您服务" accept_time="2017-04-25 15:14:59" accept_address="深圳市" opcode="80"/>
+            <Route remark="在官网&quot;运单资料&quot;,可查看签收人信息" accept_time="2017-04-25 15:19:46" accept_address="深圳市" opcode="8000"/>
+        </RouteResponse>
+        <RouteResponse mailno="444832126100">
+            <Route remark="顺丰速运 已收取快件" accept_time="2017-04-25 15:12:34" accept_address="深圳市" opcode="50"/>
+            <Route remark="快件正送往顺丰店/站 " accept_time="2017-04-25 15:14:39" accept_address="深圳市" opcode="123"/>
+            <Route remark="快件到达顺丰店/站 " accept_time="2017-04-25 15:14:46" accept_address="深圳市" opcode="130"/>
+            <Route remark="正在派送途中,请您准备签收" accept_time="2017-04-25 15:14:51" accept_address="深圳市" opcode="44"/>
+            <Route remark="已签收,感谢使用顺丰,期待再次为您服务" accept_time="2017-04-25 15:14:59" accept_address="深圳市" opcode="80"/>
+            <Route remark="在官网&quot;运单资料&quot;,可查看签收人信息" accept_time="2017-04-25 15:19:46" accept_address="深圳市" opcode="8000"/>
+        </RouteResponse>
+    </Body>
+</Response>

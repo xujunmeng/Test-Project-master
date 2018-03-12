@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="TestResteasy"/>
+			<item value="TestEmail"/>
+			<item value="TestS3"/>
+			<item value="TestMotanServer2"/>
+			<item value="TestMotan2"/>
+			<item value="TestMotan"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="TestResteasy"/>
+			<item value="TestEmail"/>
+			<item value="TestS3"/>
+			<item value="TestMotanServer2"/>
+			<item value="TestMotan2"/>
+			<item value="TestMotan"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="341" key="x"/>
+		<item value="103" key="y"/>
+		<item value="589" key="height"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\开发安装包\eclipse安装包\eclipse-ui-theme-master"/>
+			<item value="D:\javaWorkLianxi\ATest"/>
+			<item value="C:\Users\junmeng.xu.SH-AD\Desktop\datashift"/>
+			<item value="C:\Users\junmeng.xu.SH-AD\Desktop\参考文件\datashift"/>
+			<item value="E:\service\dataentry"/>
+			<item value="E:\framework\app"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="internal" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\javaWorkLianxi\TestMotanServer"/>
+			<item value="D:\javaWorkLianxi\TestMotan"/>
+			<item value="D:\javaWorkLianxi\TestMyBatis2"/>
+			<item value="D:\javaWorkLianxi\TestMyBatis"/>
+			<item value="D:\javaWorkLianxi\TestJavase"/>
+			<item value="D:\开发安装包\spring相关文件\JmsQuartzTest"/>
+			<item value="D:\javaWorkLianxi\TestMaven\src\main\java\javaCollection"/>
+			<item value="D:\javaWorkLianxi\TestMaven\src\main\java\java8"/>
+			<item value="D:\javaWorkLianxi\testSpringMyBatis"/>
+			<item value="D:\javaWorkLianxi\TestSolrj"/>
+			<item value="D:\javaWorkLianxi\ATest"/>
+			<item value="D:\javaWorkLianxi\crawlerTest\src\main\java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="est"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

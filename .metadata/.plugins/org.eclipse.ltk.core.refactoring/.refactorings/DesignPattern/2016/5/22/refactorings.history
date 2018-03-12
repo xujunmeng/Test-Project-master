@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;c&apos; to &apos;策略设计模式&apos;&#x0D;&#x0A;- Original project: &apos;DesignPattern&apos;&#x0D;&#x0A;- Original element: &apos;DesignPattern/src/main/java/c&apos;&#x0D;&#x0A;- Renamed element: &apos;DesignPattern/src/main/java/策略设计模式&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;c&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;c" name="策略设计模式" qualified="false" references="true" stamp="1464331619297" textual="false" version="1.0"/>
+</session>

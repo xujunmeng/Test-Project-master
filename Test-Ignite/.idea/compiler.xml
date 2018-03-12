@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="demo" />
+        <module name="demo (1)" />
+        <module name="Test-Spring-boot" />
+        <module name="TestComment" />
+        <module name="TestPassage" />
+      </profile>
+      <profile default="false" name="Annotation profile for Test-Maven-Web" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Test-Maven-Web" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestMavenPom" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestMavenPom" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestJavase" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestJavase" />
+      </profile>
+      <profile default="false" name="Annotation profile for datashiftTest" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="datashiftTest" />
+      </profile>
+      <profile default="false" name="Annotation profile for Reconsitution" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Reconsitution" />
+      </profile>
+      <profile default="false" name="Annotation profile for Test-Ignite" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Test-Ignite" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestAlgorithm" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestAlgorithm" />
+      </profile>
+      <profile default="false" name="Annotation profile for testAop" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="testAop" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestBatch" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestBatch" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestCommons-lang" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestCommons-lang" />
+      </profile>
+      <profile default="false" name="Annotation profile for client-demo-dao" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="client-demo-dao" />
+      </profile>
+      <profile default="false" name="Annotation profile for server-demo-dao" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="server-demo-dao" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestCSF" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestCSF" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestDataStream" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestDataStream" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestDbUtils" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestDbUtils" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestEasyMock" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestEasyMock" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestEmail" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestEmail" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestExcel" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestExcel" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestGoogleGuava" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestGoogleGuava" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestJava8" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestJava8" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestJavaseClassLoaderReflect" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestJavaseClassLoaderReflect" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestJavaseCollection" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestJavaseCollection" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestJavaseIO" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestJavaseIO" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestJavatuples" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestJavatuples" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestJMS" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestJMS" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestJsoup" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestJsoup" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestKafka" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestKafka" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestMemcached" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestMemcached" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestMongodb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestMongodb" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestMultiThread" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestMultiThread" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestMyBatis" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestMyBatis" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestMyBatis2" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestMyBatis2" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestNetty" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestNetty" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestNetworkProgram" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestNetworkProgram" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestOracle" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestOracle" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestOracle2" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestOracle2" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestQuartz" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestQuartz" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestRedis" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestRedis" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestRedis2" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestRedis2" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestRedis3" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestRedis3" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestResteasyJetty" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestResteasyJetty" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestS3" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestS3" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestSolrj" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestSolrj" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestSolrSpring" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestSolrSpring" />
+      </profile>
+      <profile default="false" name="Annotation profile for Test" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Test" />
+      </profile>
+      <profile default="false" name="Annotation profile for testSpring02" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="testSpring02" />
+      </profile>
+      <profile default="false" name="Annotation profile for testSpring03" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="testSpring03" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestThread" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestThread" />
+      </profile>
+      <profile default="false" name="Annotation profile for thrift" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="thrift" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestWebService" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestWebService" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestZookeeper" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestZookeeper" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestSpringTransaction" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestSpringTransaction" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestSpringTransaction2" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestSpringTransaction2" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestTXT2DOC" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestTXT2DOC" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="client-demo-dao" target="1.8" />
+      <module name="configuration" target="1.8" />
+      <module name="datashiftTest" target="1.8" />
+      <module name="demo" target="1.5" />
+      <module name="demo (1)" target="1.5" />
+      <module name="Reconsitution" target="1.8" />
+      <module name="server-demo-dao" target="1.8" />
+      <module name="Test" target="1.8" />
+      <module name="Test-Ignite" target="1.8" />
+      <module name="Test-Maven-Web" target="1.8" />
+      <module name="Test-Spring-boot" target="1.8" />
+      <module name="TestAlgorithm" target="1.8" />
+      <module name="testAop" target="1.8" />
+      <module name="TestBatch" target="1.8" />
+      <module name="TestCommons-lang" target="1.8" />
+      <module name="TestConsulMotan" target="1.8" />
+      <module name="TestCSF" target="1.8" />
+      <module name="TestDataStream" target="1.8" />
+      <module name="TestDbUtils" target="1.8" />
+      <module name="TestEasyMock" target="1.8" />
+      <module name="TestEmail" target="1.8" />
+      <module name="TestExcel" target="1.8" />
+      <module name="TestGoogleGuava" target="1.8" />
+      <module name="TestJava8" target="1.8" />
+      <module name="TestJavase" target="1.8" />
+      <module name="TestJavaseClassLoaderReflect" target="1.8" />
+      <module name="TestJavaseCollection" target="1.8" />
+      <module name="TestJavaseIO" target="1.8" />
+      <module name="TestJavatuples" target="1.8" />
+      <module name="TestJMS" target="1.8" />
+      <module name="TestJsoup" target="1.8" />
+      <module name="TestKafka" target="1.8" />
+      <module name="TestMavenPom" target="1.8" />
+      <module name="TestMemcached" target="1.8" />
+      <module name="TestMongodb" target="1.8" />
+      <module name="TestMultiThread" target="1.8" />
+      <module name="TestMyBatis" target="1.8" />
+      <module name="TestMyBatis2" target="1.8" />
+      <module name="TestNetty" target="1.8" />
+      <module name="TestNetworkProgram" target="1.8" />
+      <module name="TestOracle" target="1.8" />
+      <module name="TestOracle2" target="1.8" />
+      <module name="TestPassage" target="1.5" />
+      <module name="TestQuartz" target="1.8" />
+      <module name="TestRedis" target="1.8" />
+      <module name="TestRedis2" target="1.8" />
+      <module name="TestRedis3" target="1.8" />
+      <module name="TestResteasy" target="1.8" />
+      <module name="TestResteasyJetty" target="1.8" />
+      <module name="TestS3" target="1.8" />
+      <module name="TestSolrj" target="1.8" />
+      <module name="TestSolrSpring" target="1.8" />
+      <module name="testSpring02" target="1.8" />
+      <module name="testSpring03" target="1.8" />
+      <module name="TestSpringTransaction" target="1.8" />
+      <module name="TestSpringTransaction2" target="1.8" />
+      <module name="TestThread" target="1.8" />
+      <module name="TestTXT2DOC" target="1.8" />
+      <module name="TestWebService" target="1.8" />
+      <module name="TestZookeeper" target="1.8" />
+      <module name="thrift" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

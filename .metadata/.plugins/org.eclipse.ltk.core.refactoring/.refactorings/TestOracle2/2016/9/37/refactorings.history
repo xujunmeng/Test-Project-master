@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 packages to &apos;TestOracle/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;TestOracle2&apos;&#x0D;&#x0A;- Destination element: &apos;TestOracle/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     TestOracle2/src/main/java/com.csf.cloud.dao.juchao.announce&#x0D;&#x0A;     TestOracle2/src/main/java/com.csf.cloud.entity.juchao.announce&#x0D;&#x0A;- Update references to refactored element" description="Move packages" destination="=TestOracle/src\/main\/java" element1="/src\/main\/java&lt;com.csf.cloud.dao.juchao.announce" element2="/src\/main\/java&lt;com.csf.cloud.entity.juchao.announce" flags="589830" fragments="2" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1473404149910" version="1.0"/>
+</session>

@@ -1,0 +1,13 @@
+package 第一个例子;
+
+import javax.ws.rs.Path;
+
+/**
+@author junmeng.xu
+@date  2016年10月21日下午3:13:33
+ */
+
+@Path("/hello")
+public class HelloWorldRestService {
+
+}

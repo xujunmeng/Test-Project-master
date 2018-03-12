@@ -1,0 +1,25 @@
+package 第一个例子;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+import org.apache.ignite.Ignite;
+import org.apache.ignite.Ignition;
+import org.apache.ignite.lang.IgniteCallable;
+
+/**
+@author junmeng.xu
+@date  2016年6月3日上午11:04:28
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Ignite ignite = Ignition.start("D:/javaWorkLianxi/Test-ignite/src/main/resources/config/default-config.xml");
+		
+		Collection<IgniteCallable<Integer>> calls = new ArrayList<IgniteCallable<Integer>>();
+		
+		
+	}
+	
+}

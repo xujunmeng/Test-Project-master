@@ -1,0 +1,34 @@
+package dao.mongo.announce;
+/**
+@author junmeng.xu
+@date  2016年7月29日上午10:43:42
+ */
+public class AnnouncementStockDao {
+
+	public Set<String> getSidsByDate(Date from, Date to){
+        DBObject query = new BasicDBObject();
+        DBObject keys = new BasicDBObject();
+        keys.put("sid", 1);
+        query.put("pdt", new BasicDBObject("$gte", DateUtils.getPreOrNextDate(from, -2)).append("$lte", DateUtils.getPreOrNextDate(to, 2)));
+        DBCursor cursor = MongoAdaptor.getDBCollection(MongoCollections.COLL_ANNOUNCEMENT).find(query, keys);
+        DBObject dbo = null;
+        Set<String> existSids = new HashSet<String>();
+        while(cursor.hasNext()){
+        	dbo = cursor.next();
+        	String sid = ObjectUtils.toString(dbo.get("sid"));
+        	existSids.add(sid);
+        }
+        DBCursor cursor2 = MongoAdaptor.getDBCollection(MongoCollections.COLL_ANNOUNCEMENT_OTC).find(query, keys);
+        DBObject dbo2 = null;
+        Set<String> existSids2 = new HashSet<String>();
+        while(cursor2.hasNext()){
+        	dbo2 = cursor2.next();
+        	String sid = ObjectUtils.toString(dbo2.get("sid"));
+        	existSids2.add(sid);
+        }
+        return Sets.newHashSet(Sets.union(
+                Sets.newHashSet(existSids),
+                Sets.newHashSet(existSids2)));
+	}
+	
+}

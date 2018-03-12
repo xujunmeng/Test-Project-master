@@ -1,0 +1,24 @@
+package handler;
+import java.util.Date;
+import java.util.Set;
+/**
+@author junmeng.xu
+@date  2016年7月28日下午5:00:09
+ */
+public abstract class AbstractAnnounce {
+
+	//总入口
+	public void doProcess(Date fromDate, Date toDate){
+		
+		//获取所有的sid
+		Set<String> allSids = getSidsFromJuchao(fromDate, toDate);
+		
+		//去除已经存在的sid
+		Set<String> sids = removeExistsData(fromDate, toDate, allSids);
+	}
+	
+	protected abstract Set<String> getSidsFromJuchao(Date fromDate, Date toDate);
+	
+	protected abstract Set<String> removeExistsData(Date fromDate, Date toDate, Set<String> sids);
+	
+}

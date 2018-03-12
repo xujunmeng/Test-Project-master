@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Response service="OrderRvsCancelService" lang="zh_CN">
+    <Head>OK</Head>
+    <Body>
+        <RvsCancelResponse res_status="2" orderid="d35c14e9-5f0c-48f6-a11e-18c99e899f61"/>
+    </Body>
+</Response>

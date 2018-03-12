@@ -1,0 +1,52 @@
+package first.simple;
+
+import java.util.Collection;
+import java.util.List;
+import java.util.function.Predicate;
+import java.util.stream.IntStream;
+
+import org.apache.ignite.Ignite;
+import org.apache.ignite.Ignition;
+import org.apache.ignite.cluster.ClusterGroup;
+import org.apache.ignite.lang.IgniteCallable;
+
+import first.simple.IgniteLambdaTest.TestJob;
+
+/**
+@author junmeng.xu
+@date  2016年6月3日下午12:28:14
+ */
+public class IgniteLambdaTest {
+	public static void main(String args[]) throws Exception {
+		new IgniteLambdaTest().run();
+	}
+	
+	protected void run() {		
+		try (Ignite ignite = Ignition.start("C:\\Development\\ignite\\libs\\vrs\\ignite-config.xml")) {
+			ClusterGroup remotes = ignite.cluster().forRemotes();
+			List<TestJob> jobs = IntStream.range(0, 100).mapToObj((x) -> new TestJob()).collect(toList());
+			Collection<Strategy> result = ignite.compute(remotes).call(jobs);
+			result.stream().forEach(System.out::println);
+		}
+	}
+	
+	static class TestJob implements IgniteCallable<Strategy> {
+		private static final long serialVersionUID = 1L;
+		@Override
+		public Strategy call() throws Exception {
+			//return new Strategy();
+			return new LambdaStrategy((x) -> false);
+		}
+	}
+}
+
+class Strategy {
+	
+}
+
+class LambdaStrategy extends Strategy {
+	private final Predicate<Integer> predicate;
+	public LambdaStrategy(Predicate<Integer> predicate) {
+		this.predicate = predicate;
+	}
+}

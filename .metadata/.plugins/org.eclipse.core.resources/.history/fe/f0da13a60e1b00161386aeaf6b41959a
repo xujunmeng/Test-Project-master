@@ -1,0 +1,32 @@
+package SelectSort;
+
+import org.junit.Test;
+
+/**
+@author junmeng.xu
+@date  2016年5月16日上午10:22:49
+ */
+public class Main {
+
+	@Test
+	public void test(){
+		int arr[] = {32,45,76,89,9,43,79,7,87,7,65,5321};
+		int count = arr.length;
+		int out;
+		int in;
+		
+		int min;
+		for(out = 0 ; out < count -1 ; out++){
+			min = out;
+			for(in = out + 1 ; in < count ; in++){
+				if(arr[in] < arr[min]){
+					min = in;
+					int temp = arr[out];
+					arr[in] = arr[min];
+					arr[min] = temp;
+				}
+			}
+		}
+	}
+	
+}

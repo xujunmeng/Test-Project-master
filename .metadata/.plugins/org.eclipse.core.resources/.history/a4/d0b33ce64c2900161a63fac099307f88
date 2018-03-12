@@ -1,0 +1,8 @@
+package org.apache.ignite.examples.java8.streaming;
+/**
+@author junmeng.xu
+@date  2016年6月3日下午1:34:50
+ */
+public class StreamVisitorExample {
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BaseTestCase.java&apos; to &apos;TestRedis/src/test/java/com.x.redis&apos;&#x0D;&#x0A;- Original project: &apos;TestRedis2&apos;&#x0D;&#x0A;- Destination element: &apos;TestRedis/src/test/java/com.x.redis&apos;&#x0D;&#x0A;- Original element: &apos;simple.BaseTestCase.java&apos;" description="Copy compilation unit" destination="=TestRedis/src\/test\/java&lt;com.x.redis" element1="/src\/test\/java&lt;simple{BaseTestCase.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1462506051642" units="1" version="1.0"/>
+</session>

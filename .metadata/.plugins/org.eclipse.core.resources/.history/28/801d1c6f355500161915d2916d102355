@@ -1,0 +1,34 @@
+package handler;
+import java.util.Date;
+import java.util.Set;
+
+import dao.TbText0042Dao;
+
+/**
+@author junmeng.xu
+@date  2016年7月28日下午5:05:32
+ */
+public class AnnounceStock extends AbstractAnnounce {
+
+	protected TbText0042Dao tbText0042Dao;
+	
+	@Override
+	protected Set<String> getSidsFromJuchao(Date fromDate, Date toDate) {
+		return tbText0042Dao.getSidsFromJuchao(fromDate, toDate);
+	}
+
+	@Override
+	protected Set<String> removeExistsData(Date fromDate, Date toDate,
+			Set<String> sids) {
+		return removeExistsSid(fromDate, toDate, sids);
+	}
+
+	public TbText0042Dao getTbText0042Dao() {
+		return tbText0042Dao;
+	}
+
+	public void setTbText0042Dao(TbText0042Dao tbText0042Dao) {
+		this.tbText0042Dao = tbText0042Dao;
+	}
+
+}

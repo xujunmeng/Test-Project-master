@@ -1,0 +1,26 @@
+package 练习的例子;
+
+import java.io.Serializable;
+
+/**
+@author junmeng.xu
+@date  2016年10月20日下午5:02:56
+ */
+public class FatherClass implements Serializable {
+
+	static final long serialVersionUID = 1L;
+
+	static final long sadf = 232;
+	
+}
+
+class SubClass extends FatherClass{
+
+	
+	
+	public static void test2(){
+		long aa = sadf;
+		long asdfs = serialVersionUID;
+	}
+	
+}

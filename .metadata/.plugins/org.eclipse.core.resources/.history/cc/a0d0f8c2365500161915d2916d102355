@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+	namespace="dao.juchao.announce.TbText0042Dao">
+
+	<select id="getSidsFromJuchao" resultType="String">
+        <![CDATA[
+        select TEXTID as obTextid0042
+        from (select
+                  TEXTID, 
+                  max(RECTIME) f002d_0042,
+                  max(F001D) f003d_0042,
+                  max(F002V) f004v_0042,
+                  max(F004V) F008V_0042,
+                  ISVALID,
+                  WM_CONCAT(OB_SECCODE_0045) OB_SECCODE_0045
+              from juchao.info3015 a,juchao.tb_text_0045 b
+              WHERE RECTIME >= #{fromDate} and RECTIME < #{toDate}
+              and a.TEXTID=b.ob_textid_0045
+              and b.ob_seccode_0045 is not null
+              group by TEXTID , ISVALID
+              order by TEXTID
+             )
+        ]]>
+	</select>
+
+	<select id="getFundSidsFromJuchao" resultType="String">
+		<![CDATA[
+          select TEXTID as obTextid0042
+          from (select
+                    max(F001D) F003D_0042, 
+                    max(F004V) F008V_0042,
+                    max(F005N) F007N_0042,
+                    max(RECTIME) OB_RECTIME_0042,
+                    TEXTID,
+                    max(RECTIME) F002D_0042,
+                    max(F002V) F004V_0042,
+                    WM_CONCAT(OB_SECCODE_0045) OB_SECCODE_0045
+                FROM juchao.info3015 a,TB_TEXT_0045 b
+                WHERE RECTIME >= #{fromDate} and RECTIME < #{toDate}
+                and a.TEXTID=b.OB_TEXTID_0045 
+                and F001V_0045 IN ('QDII','LOF','ETF','老基金','开放式基金','封闭式基金')
+                and b.ob_seccode_0045 is not null
+                group by TEXTID
+                order by TEXTID
+             )
+		]]>
+	</select>
+
+	<select id="getUpdateSidsFromJuchao" resultType="String">
+        <![CDATA[
+       select TEXTID as obTextid0042
+       from (select
+                 TEXTID, 
+                 max(RECTIME) f002d_0042,
+                 max(F001D) f003d_0042,
+                 max(F002V) f004v_0042,
+                 max(F004V) F008V_0042,
+                 ISVALID,
+                 WM_CONCAT(OB_SECCODE_0045) OB_SECCODE_0045
+             from juchao.info3015 a,juchao.tb_text_0045 b
+             WHERE MODTIME >= #{fromDate} and MODTIME < #{toDate}
+             and a.TEXTID=b.ob_textid_0045
+             and b.ob_seccode_0045 is not null
+             group by TEXTID , ISVALID
+             order by TEXTID
+             )
+        ]]>
+	</select>
+	
+	<select id="getUpdateFundSidsFromJuchao" resultType="String">
+		<![CDATA[
+         select TEXTID as obTextid0042
+         from (select
+                 max(F001D) F003D_0042, 
+                 max(F004V) F008V_0042,
+                 max(F005N) F007N_0042,
+                 max(RECTIME) OB_RECTIME_0042,
+                 TEXTID,
+                 max(RECTIME) F002D_0042,
+                 max(F002V) F004V_0042,
+                 WM_CONCAT(OB_SECCODE_0045) OB_SECCODE_0045
+                 FROM juchao.info3015 a,TB_TEXT_0045 b
+                 WHERE MODTIME >= #{fromDate} and MODTIME < #{toDate}
+                 and a.TEXTID=b.OB_TEXTID_0045 
+                 and F001V_0045 IN ('QDII','LOF','ETF','老基金','开放式基金','封闭式基金')
+                 and b.ob_seccode_0045 is not null
+                 group by TEXTID
+                 order by TEXTID
+             )
+		]]>
+	</select>
+	
+
+	<select id="getEntityBySids" resultType="entity.juchao.announce.TbText0042">
+        select TEXTID as obTextid0042,
+               RECTIME as f002d0042,    
+               F001D as f003d0042,
+               F002V as f004v0042,
+               F004V as f008v0042,
+               ISVALID as obIsvalid0042,
+               ob_seccode_0045 as obSeccode0045
+        from (select rownum rn,TEXTID,RECTIME,F001D,F002V,F004V,ISVALID,ob_seccode_0045
+              from (select
+                       TEXTID, 
+                       max(RECTIME) RECTIME,
+                       max(F001D) F001D,
+                       max(F002V) F002V,
+                       max(F004V) F004V,
+                       ISVALID,
+                       WM_CONCAT(OB_SECCODE_0045) OB_SECCODE_0045
+                    from juchao.info3015 a,juchao.tb_text_0045 b
+                    WHERE TEXTID in 
+                    <foreach item="item" index="index" collection="sids" open="("
+                        separator="," close=")">
+                        #{item}
+                    </foreach>
+                    and a.TEXTID=b.ob_textid_0045
+                    and b.ob_seccode_0045 is not null
+                    group by TEXTID , ISVALID
+                  order by TEXTID
+                  )
+             ) 
+	</select>
+	
+	<select id="getFundEntityBySids" resultType="entity.TbText0045">
+    select F001D as f003d0042, 
+           F004V as f008v0042,
+           F005N as f007n0042,
+           RECTIME as obRectime0042,
+           TEXTID as obTextId0042,
+           RECTIME as f002d0042,
+           F002V as f004v0042,
+           OB_SECCODE_0045 as obSeccode0045 
+    from (select rownum rn,F001D, F004V,F005N,RECTIME,TEXTID,F002V,OB_SECCODE_0045 
+          from (select
+                 max(F001D) F001D, 
+                 max(F004V) F004V,
+                 max(F005N) F005N,
+                 max(RECTIME) RECTIME,
+                 TEXTID,
+                 max(F002V) F002V,
+                 WM_CONCAT(OB_SECCODE_0045) OB_SECCODE_0045
+                 FROM juchao.info3015 a,TB_TEXT_0045 b
+                 WHERE TEXTID in 
+                 <foreach item="item" index="index" collection="sids" open="("
+                 separator="," close=")">
+                 #{item}
+                 </foreach>
+                 and a.TEXTID=b.OB_TEXTID_0045 
+                 and F001V_0045 IN ('QDII','LOF','ETF','老基金','开放式基金','封闭式基金')
+                 and b.ob_seccode_0045 is not null
+                 group by TEXTID
+                 order by TEXTID
+             )
+         ) 
+	</select>
+	
+</mapper>

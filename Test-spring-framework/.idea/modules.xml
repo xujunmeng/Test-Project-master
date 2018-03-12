@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Test-spring-core/Test-spring-core.iml" filepath="$PROJECT_DIR$/Test-spring-core/Test-spring-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test-spring-framework.iml" filepath="$PROJECT_DIR$/Test-spring-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test-spring-jcl/Test-spring-jcl.iml" filepath="$PROJECT_DIR$/Test-spring-jcl/Test-spring-jcl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test-spring-jdbc/Test-spring-jdbc.iml" filepath="$PROJECT_DIR$/Test-spring-jdbc/Test-spring-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test-spring-tx/Test-spring-tx.iml" filepath="$PROJECT_DIR$/Test-spring-tx/Test-spring-tx.iml" />
+    </modules>
+  </component>
+</project>

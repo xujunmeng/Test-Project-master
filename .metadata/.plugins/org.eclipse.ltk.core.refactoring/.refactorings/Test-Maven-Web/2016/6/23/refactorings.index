@@ -1,0 +1,8 @@
+1464767086775	Rename type 'CommunityService'
+1464767098963	Rename type 'CommunityServiceImpl'
+1464767121248	Rename type 'CommunityDomain'
+1464768069270	Rename resource 'mysql'
+1464768093840	Rename resource 'user.xml'
+1464768567264	Copy package
+1464768627927	Delete element
+1464836631846	Rename resource 'SqlMapperConfig.xml'

@@ -1,0 +1,20 @@
+package e;
+/**
+@author junmeng.xu
+@date  2016年1月8日上午11:13:13
+ */
+public class Test {
+	public static void main(String[] args) {
+		
+		String str = "斯大林发觉上当指数abc";
+		
+	}
+
+	private String getStr(String str) {
+		return haha(str);
+	}
+
+	private String haha(String str) {
+		return str.replace("指数","");
+	}
+}

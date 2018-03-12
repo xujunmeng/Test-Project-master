@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/../DesignPattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Test-Maven-Web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Test-Spring-boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestAlgorithm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestAop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestBatch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestCSF" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestCommons-lang" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestConsulMotan/client-demo-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestConsulMotan/server-demo-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestDataStream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestDbUtils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestEasyMock" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestExcel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestGoogleGuava" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestJMS" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestJava8" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestJavase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestJavaseClassLoaderReflect" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestJavaseCollection" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestJavaseIO" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestJavatuples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestKafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestMavenPom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestMemcached" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestMongodb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestMultiThread" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestMyBatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestMyBatis2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestNetworkProgram" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestOracle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestOracle2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestQuartz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestRedis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestRedis2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestRedis3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestResteasy/src/main/java/first/HelloJetty.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestResteasy/src/main/java/first/MyServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestResteasyJetty/src/log4j.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../TestSolrWebDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestSolrj" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestSpringActiveMQQuartz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestSpringJdbcTemplate" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestSpringMyBatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestSpringTransaction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestSpringTransaction2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestTXT2DOC" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestThread" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestThrift" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../TestWebService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../configuration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../datashiftTest" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

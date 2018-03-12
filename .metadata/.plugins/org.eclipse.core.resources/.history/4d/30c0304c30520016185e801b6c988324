@@ -1,0 +1,211 @@
+package javaStr;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Locale;
+import java.util.Random;
+import java.util.Set;
+import java.util.stream.Collectors;
+
+import org.apache.commons.lang.StringUtils;
+import org.junit.Test;
+
+/**
+ * @author junmeng.xu
+ * @date 2016年4月7日下午6:21:27
+ */
+public class MainString {
+
+	public static void main(String[] args) {
+
+		String str = ",2323,2323,2323";
+		String str2 = "2015-01-05000007";
+		int m = 1;
+		for (int i = 0; i < 1000; i++) {
+		}
+	}
+
+	@Test
+	public void test() {
+		String str = "/announce/cn/20160408/f3edcf1aab5b73d9c7370aa3fc22f83e.pdf";
+		String[] split = str.split("/");
+		String string = split[split.length - 2];
+		System.out.println(string);
+	}
+
+	//join
+	@Test
+	public void testJoin(){
+		String str = "20160408";
+		String str2 = "20160409";
+		String str3 = "20160508";
+		String str4 = "20160509";
+		String str5 = "20150508";
+		String str6 = "20150509";
+		Set<String> set = new HashSet<String>();
+		set.add(str);
+		set.add(str2);
+		set.add(str3);
+		set.add(str4);
+		set.add(str5);
+		set.add(str6);
+		System.out.println(StringUtils.join(set, ","));
+	}
+	@Test
+	public void testJoin2(){
+		int a = 10;
+		String sum = "";
+		for (int i = 0; i < a; i++) {
+			sum = sum + "?,";
+		}
+		String substring = sum.substring(0, sum.length()-1);
+		System.out.println(substring);
+	}
+	
+	@Test
+	public void test2() {
+		String str = "20160408";
+		String str2 = "20160409";
+		String str3 = "20160508";
+		String str4 = "20160509";
+		String str5 = "20150508";
+		String str6 = "20150509";
+		Set<String> set = new HashSet<String>();
+		set.add(str);
+		set.add(str2);
+		set.add(str3);
+		set.add(str4);
+		set.add(str5);
+		set.add(str6);
+		Object[] array = set.stream().sorted().toArray();
+		for (Object object : array) {
+			System.out.println(object);
+		}
+		System.out.println("=========");
+		System.out.println(array[0]);
+		System.out.println(array[array.length - 1]);
+
+	}
+
+	@Test
+	public void test3() throws ParseException {
+		String date = "Apr 10, 2016 2:37:47 PM";
+		SimpleDateFormat sdf = new SimpleDateFormat("MMM dd yyyy HH:mm:ss zz",
+				Locale.US);
+
+		Date d = sdf.parse(date);
+
+		sdf = new SimpleDateFormat("yyyyMMdd");
+
+		System.out.println(sdf.format(d));
+
+	}
+
+	@Test
+	public void test4() {
+		List<String> list = new ArrayList<String>();
+		list.add("asdf");
+		list.add("234");
+		String join = String.join(",", list);
+		System.out.println(join);
+	}
+
+	@Test
+	public void test5() {
+		Object arr[] = new Object[] { "1234" };
+		Object string = arr[0];
+		int parseInt = Integer.parseInt((String) string);
+		int begin = parseInt - 1;
+		int end = parseInt + 1;
+		System.out.println(parseInt);
+		System.out.println(begin);
+		System.out.println(end);
+		System.out.println(arr.length);
+	}
+	@Test
+	public void test6(){
+		String str ="2015-05-08";
+		String[] split = str.split("-");
+		String string = split[2];
+		int a = Integer.parseInt(string) + 1;
+		System.out.println(a);
+	}
+
+	@Test
+	public void test7(){
+		int nextInt = new Random().nextInt(99999);
+		System.out.println(nextInt);
+	}
+	@Test
+	public void test8(){
+		List<Access> list = new ArrayList<Access>();
+		Access a1 = new Access();
+		a1.setAge(1);
+		a1.setName("7686784589");
+		Access a2 = new Access();
+		a2.setAge(2);
+		a2.setName("34334589");
+		Access a3 = new Access();
+		a3.setAge(3);
+		a3.setName("123456789");
+		list.add(a1);
+		list.add(a2);
+		list.add(a3);
+		List<String> list2 = list.stream().map((a) -> a.getName()).collect(Collectors.toList());
+		String join = org.apache.commons.lang.StringUtils.join(list2, ",");
+		System.out.println(join);
+	}
+	@Test
+	public void test9(){
+	}
+	public static boolean equals(Object object1, Object object2) {
+		if (object1 == object2) {
+			return true;
+		}
+		if ((object1 == null) || (object2 == null)) {
+			return false;
+		}
+		return object1.equals(object2);
+	}
+	@Test
+	public void test10(){
+		String str1 = "2000-01-01";
+		String str2 = "2000-01-02";
+		int compareTo = str2.compareTo(str1);
+		System.out.println(compareTo);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public class Access{
+		private String name;
+		private Integer age;
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public Integer getAge() {
+			return age;
+		}
+		public void setAge(Integer age) {
+			this.age = age;
+		}
+		@Override
+		public String toString() {
+			return "Access [name=" + name + ", age=" + age + "]";
+		}
+		
+	}
+}

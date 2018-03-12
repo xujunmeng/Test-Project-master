@@ -1,0 +1,13 @@
+com\aihuishou\service\client\impl\JerseyClient.class
+com\aihuishou\service\client\UniformInvokeException.class
+com\aihuishou\service\client\WebResourceName.class
+com\aihuishou\service\client\EnumMethod.class
+com\aihuishou\service\client\provider\FastJsonConfig.class
+com\aihuishou\service\client\AbstractRequest.class
+com\aihuishou\service\client\IClient.class
+com\aihuishou\service\client\spring\JerseyClientFactory.class
+com\aihuishou\service\client\impl\JerseyClient$1.class
+com\aihuishou\service\client\provider\FastJsonProvider.class
+com\aihuishou\service\client\provider\FastJsonType.class
+com\aihuishou\service\client\util\IOUtils.class
+com\aihuishou\service\client\IRequest.class

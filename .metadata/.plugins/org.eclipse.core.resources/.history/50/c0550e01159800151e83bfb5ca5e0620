@@ -1,0 +1,9 @@
+package w;
+
+public class Test2 {
+	public static void main(String[] args) {
+		for (int j = 0; j < 10000000; j++) {
+			System.out.println(j);
+		}
+	}
+}

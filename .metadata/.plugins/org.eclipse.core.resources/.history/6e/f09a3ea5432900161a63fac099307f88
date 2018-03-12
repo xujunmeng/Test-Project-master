@@ -1,0 +1,8 @@
+package first.simple;
+/**
+@author junmeng.xu
+@date  2016年6月3日下午12:28:14
+ */
+public class IgniteLambdaTest {
+
+}

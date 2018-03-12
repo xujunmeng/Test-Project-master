@@ -1,0 +1,12 @@
+/**
+@author junmeng.xu
+@date  2016年7月28日下午5:00:09
+ */
+public abstract class AbstractAnnounce {
+
+	//总入口
+	public void doProcess(){
+		
+	}
+	
+}

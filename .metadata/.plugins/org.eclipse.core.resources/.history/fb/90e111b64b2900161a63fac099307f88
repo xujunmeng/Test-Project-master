@@ -1,0 +1,8 @@
+package org.apache.ignite.examples.java8.computegrid;
+/**
+@author junmeng.xu
+@date  2016年6月3日下午1:26:07
+ */
+public class ComputerAsyncExample {
+
+}

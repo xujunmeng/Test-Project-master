@@ -1,0 +1,26 @@
+package entity;
+/**
+@author junmeng.xu
+@date  2016年7月28日下午5:15:47
+ */
+public class JuchaoEntity {
+
+	private String obObjectId;
+	private String obSeqId;
+	
+	
+	public String getObObjectId() {
+		return obObjectId;
+	}
+
+	public void setObObjectId(String obObjectId) {
+		this.obObjectId = obObjectId;
+	}
+
+	@Override
+	public String toString() {
+		return "JuchaoEntity [obObjectId=" + obObjectId + "]";
+	}
+	
+	
+}

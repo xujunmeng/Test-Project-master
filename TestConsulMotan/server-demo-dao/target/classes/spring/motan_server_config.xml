@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:motan="http://api.weibo.com/schema/motan"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://api.weibo.com/schema/motan http://api.weibo.com/schema/motan.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop-4.1.xsd">
+
+       <!-- 1. consul remote registry -->
+       <!-- <motan:registry regProtocol="consul" name="consul-registry" address="${consul.registry.address}"
+           /> -->
+
+       <!-- 2. 本地测试配置 -->
+       <motan:registry regProtocol="local" name="consul-registry"
+                       check="false" />
+
+       <motan:protocol id="motan-protocol" default="true" name="motan"
+                       serialization="hessian2" codec="motan" iothreads="16" requestTimeout="5000"
+                       minClientConnection="100" maxClientConnection="10000" minWorkerThread="100"
+                       maxWorkerThread="2000" maxContentLength="10485760"
+                       maxServerConnection="100000" poolLifo="true" lazyInit="false" cluster="default"
+                       loadbalance="localFirst" haStrategy="failover" async="false"
+                       switcherService="localSwitcherService" />
+
+       <!-- host="192.168.1.108" -->
+       <motan:basicService id="serviceBasicConfig"
+                           registry="consul-registry" shareChannel="true" accessLog="false"
+                           throwException="true" group="${app_group_name}" module="${app_module_name}"
+                           application="${app_name}" filter="switcher"
+                           export="motan-protocol:${service.publish.default.port}"
+                           requestTimeout="1000" />
+
+       <!-- export service -->
+       <motan:annotation />
+
+       <!-- 业务具体实现类 -->
+
+       <!-- mongo -->
+       <!--<motan:service interface="com.csf.service.user.dao.mongo.ICombinationBaseDao"-->
+                      <!--ref="combinationBaseDao" basicService="serviceBasicConfig" />-->
+
+       <!-- msyql -->
+       <motan:service ref="iCsfUserDao"
+                      interface="com.junmeng.dao.ICsfUserDao"
+                      basicService="serviceBasicConfig" />
+
+</beans>
