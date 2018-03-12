@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestJavase/TestJavase.iml" filepath="$PROJECT_DIR$/TestJavase/TestJavase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alpha/alpha-client/alpha-client.iml" filepath="$PROJECT_DIR$/alpha/alpha-client/alpha-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alpha/alpha-model/alpha-model.iml" filepath="$PROJECT_DIR$/alpha/alpha-model/alpha-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alpha/alpha-parent.iml" filepath="$PROJECT_DIR$/alpha/alpha-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alpha/alpha-service/alpha-service.iml" filepath="$PROJECT_DIR$/alpha/alpha-service/alpha-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configuration/configuration.iml" filepath="$PROJECT_DIR$/configuration/configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datashiftTest/datashiftTest.iml" filepath="$PROJECT_DIR$/datashiftTest/datashiftTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/intelliJ.iml" filepath="$PROJECT_DIR$/.idea/intelliJ.iml" />
     </modules>
   </component>
