@@ -10,22 +10,25 @@ public class Main {
 
 	@Test
 	public void test(){
-		Integer[] arr = new Integer[]{23,5,54,2,5,234};
+		int[] arr = new int[]{77,99,44,55,22,88,11,00,66,33};
+		insertSort(arr);
+	}
+
+	public static void insertSort(int[] arr) {
 		int count = arr.length;
-		int inner;
-		int outer;
-		for(outer = 1; outer < count; outer++){
-			int temp = arr[outer];
-			inner = outer;
-			while(inner > 0 && arr[inner-1] >= temp){
-				arr[inner] = arr[inner-1];
-				--inner;
+		int in, out;
+		for(out = 1; out < count; out++){
+			int temp = arr[out];
+			in = out;
+			while(in > 0 && arr[in - 1] >= temp){
+				arr[in] = arr[in - 1];
+				--in;
 			}
-			arr[inner] = temp;
+			arr[in] = temp;
 		}
 		for (Integer obj : arr) {
 			System.out.println(obj);
 		}
 	}
-	
+
 }
