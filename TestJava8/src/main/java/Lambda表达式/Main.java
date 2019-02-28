@@ -47,5 +47,18 @@ public class Main {
 		Collections.sort(names, (a, b) -> b.compareTo(a));
 		System.out.println(names);
 	}
+
+	@Test
+	public void test5() {
+		List<Integer> list = Arrays.asList(23,5,123,5623,6523,214,2);
+		list.sort((a, b) -> {
+			if (a.intValue() > b.intValue()) {
+				return 1;
+			} else {
+				return -1;
+			}
+		});
+		System.out.println(list);
+	}
 	
 }

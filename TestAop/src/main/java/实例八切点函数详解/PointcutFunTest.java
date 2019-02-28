@@ -11,13 +11,23 @@ public class PointcutFunTest {
     public static void main(String[] args) {
 
         String configPath = "实例八切点函数详解/beans.xml";
+
         ApplicationContext ctx = new ClassPathXmlApplicationContext(configPath);
+
         Waiter naiveWaiter = (Waiter) ctx.getBean("naiveWaiter");
         Waiter naughtyWaiter = (Waiter) ctx.getBean("naughtyWaiter");
-		naiveWaiter.greetTo("John");
-		naiveWaiter.serveTo("John");
-		naughtyWaiter.greetTo("Tom");
-		naughtyWaiter.serveTo("Tom");
+        Waiter classLevelWaiter = (Waiter) ctx.getBean("classLevelWaiter");
+
+//		naiveWaiter.greetTo("John");
+//		naiveWaiter.serveTo("John");
+//
+//		naughtyWaiter.greetTo("Tom");
+//		naughtyWaiter.serveTo("Tom");
+
+        classLevelWaiter.greetTo("class");
+        classLevelWaiter.serveTo("class");
+
+//        classInterceptor.init();
 
     }
 

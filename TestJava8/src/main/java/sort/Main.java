@@ -1,10 +1,11 @@
 package sort;
 
+import com.google.common.collect.Lists;
+import com.google.common.collect.Maps;
+import org.apache.commons.collections.CollectionUtils;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -14,32 +15,74 @@ public class Main {
 
     @Test
     public void test() {
-        SortXJM o1 = new SortXJM("xjm1", new Date());
-        SortXJM o3 = new SortXJM("jm3", new Date());
-        SortXJM o4 = new SortXJM("xjm4", new Date());
-        SortXJM o2 = new SortXJM("xjm2", new Date());
+        SortXJM o1 = new SortXJM(1, "xjm1", new Date());
+        SortXJM o3 = new SortXJM(1, "jm3", new Date());
+        SortXJM o4 = new SortXJM(1, "xjm4", new Date());
+        SortXJM o2 = new SortXJM(1, "xjm2", new Date());
         List<SortXJM> listObj = new ArrayList<>();
         listObj.add(o1);
         listObj.add(o3);
         listObj.add(o4);
         listObj.add(o2);
         List<SortXJM> x = listObj.stream()
-                .filter((a) -> a.getName().startsWith("x"))
+                .filter((a) -> a.getName().startsWith("i"))
                 .sorted((a, b) -> b.getCreate().compareTo(a.getCreate()))
                 .collect(Collectors.toList());
+        if (CollectionUtils.isEmpty(x)) {
+            System.out.println("sdf");
+            return;
+        }
         System.out.println(x);
     }
 
+    @Test
+    public void test23() {
+        SortXJM o1 = new SortXJM(1, "xjm1", new Date());
+        SortXJM o3 = new SortXJM(2, "jm3", new Date());
+        SortXJM o4 = new SortXJM(1, "xjm4", new Date());
+        SortXJM o2 = new SortXJM(1, "xjm2", new Date());
+        List<SortXJM> listObj = new ArrayList<>();
+        listObj.add(o1);
+        listObj.add(o3);
+        listObj.add(o4);
+        listObj.add(o2);
 
+        Map<Integer, List<SortXJM>> map = new HashMap<>();
+
+        for (SortXJM sortXJM : listObj) {
+            Integer id = sortXJM.getId();
+            if (map.containsKey(id)) {
+                map.get(id).add(sortXJM);
+            } else {
+                map.put(id, Lists.newArrayList(sortXJM));
+            }
+        }
+        System.out.println(map);
+
+        Map<Integer, List<SortXJM>> collect = listObj.stream().collect(Collectors.groupingBy(a -> a.getId()));
+        System.out.println(collect);
+
+
+    }
 
 }
 class SortXJM{
+    private Integer id;
     private String name;
     private Date create;
 
-    public SortXJM(String name, Date create) {
+    public SortXJM(Integer id, String name, Date create) {
+        this.id = id;
         this.name = name;
         this.create = create;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -61,7 +104,8 @@ class SortXJM{
     @Override
     public String toString() {
         return "SortXJM{" +
-                "name='" + name + '\'' +
+                "id=" + id +
+                ", name='" + name + '\'' +
                 ", create=" + create +
                 '}';
     }

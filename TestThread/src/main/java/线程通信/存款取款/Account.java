@@ -5,10 +5,21 @@ package 线程通信.存款取款;
  */
 public class Account {
 
+	/**
+	 * 账号编号
+	 */
 	private String accountNo;
+
+	/**
+	 * 账户余额
+	 */
 	private double balance;
-	//标识账户中是否已有存款的旗标
+
+	/**
+	 * 标识账户中是否已有存款的旗标
+	 */
 	private boolean flag = false;
+
 	public Account(){}
 	public Account(String accountNo, double balance) {
 		this.accountNo = accountNo;
@@ -36,8 +47,10 @@ public class Account {
 				System.out.println(Thread.currentThread().getName() + " 取钱 " + drawAmount);
 				balance -= drawAmount;
 				System.out.println("账户余额为 : " + balance);
+
 				//将标识账户是否已有存款的旗标设为false
 				flag = false;
+
 				//唤醒其他线程  ：：唤醒了deposit方法中wait()的线程
 				notifyAll();
 			}
@@ -55,8 +68,10 @@ public class Account {
 				System.out.println(Thread.currentThread().getName() + " 存款 " + depositAmount);
 				balance += depositAmount;
 				System.out.println("账户余额为 ： " + balance);
+
 				//将表示账户是否已有存款的旗标设为true
 				flag = true;
+
 				//唤醒其他线程
 				notifyAll();
 			}
@@ -64,18 +79,7 @@ public class Account {
 			e.printStackTrace();
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;

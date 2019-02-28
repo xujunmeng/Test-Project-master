@@ -3,6 +3,10 @@ package cyclicBarrier用法;
 import java.util.concurrent.CyclicBarrier;
 
 /**
+ * CyclicBarrier是可以重用的，看下面这个例子
+ * 从执行结果可以看出，在初次的4个线程越过barrier状态后，又可以用来进行新一轮的使用。而CountDownLatch无法进行重复使用。
+ *
+ *
 @author junmeng.xu
 @date  2016年8月15日上午9:53:52
  */
@@ -34,11 +38,16 @@ public class Test3 {
 	}
 	
 }
+
 class Worker3 extends Thread{
+
 	private CyclicBarrier cyclicBarrier;
+
 	public Worker3(CyclicBarrier cyclicBarrier){
 		this.cyclicBarrier = cyclicBarrier;
+
 	}
+
 	@Override
 	public void run() {
 		System.out.println(" 线程 : " + Thread.currentThread().getName() + " 正在写入数据 ... ");

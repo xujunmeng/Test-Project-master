@@ -6,8 +6,13 @@
            http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
 	<aop:aspectj-autoproxy/>
+
 	<bean id="naiveWaiter" class="实例八切点函数详解.NaiveWaiter"/>
+
 	<bean id="naughtyWaiter" class="实例八切点函数详解.NaughtyWaiter"/>
+
+	<bean id="classLevelWaiter" class="实例八切点函数详解.ClassLevelWaiter"/>
+
 	<bean class="实例八切点函数详解.TestAspect"/>
 
 

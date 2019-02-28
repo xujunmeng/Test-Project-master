@@ -1,1 +1,15 @@
-# Created by .ignore support plugin (hsz.mobi)
+# comment - this is ignored file list
+
+/**/target
+/**/.settings
+/**/bin
+/**/.gitignore
+/**/.classpath
+/.classpath
+/**/.project
+/**/*.iml
+/**/.idea/
+/**/.DS_Store
+/quotation-service/src/main/resources/application.properties
+/**/pom.xml.versionsBackup
+/test-output

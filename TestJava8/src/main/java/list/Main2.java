@@ -5,7 +5,10 @@ import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import java.util.function.ToIntFunction;
 
@@ -133,6 +136,23 @@ public class Main2 {
 		list.add("222");
 		list.add("333");
 		list.add("444");
+	}
+
+	@Test
+	public void test234() {
+		LocalDate nowDate = LocalDate.now();
+
+		LocalDate localDate = nowDate.plusDays(2);
+		System.out.println(localDate);
+	}
+
+	@Test
+	public void tset234() {
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(new Date());
+		calendar.add(Calendar.DATE, 2);
+		Date time = calendar.getTime();
+		System.out.println(time);
 	}
 
 

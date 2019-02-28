@@ -5,9 +5,16 @@ package 线程同步.银行取款1;
  */
 public class Account {
 
-	//封装账户编号，账户余额两个属性
+	/**
+	 * 账户编号
+	 */
 	private String accountNo;
+
+	/**
+	 * 账户余额
+	 */
 	private double balance;
+
 	public Account(String accountNo, double balance) {
 		this.accountNo = accountNo;
 		this.balance = balance;
