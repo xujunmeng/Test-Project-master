@@ -1,68 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e8f24cf-a575-4c46-acd8-cf5a0a696924" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__com_google_collections_google_collections_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_springframework_spring_aop_3_2_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_springframework_spring_beans_3_2_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_springframework_spring_context_3_2_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_springframework_spring_context_support_3_2_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_springframework_spring_core_3_2_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_springframework_spring_expression_3_2_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_springframework_spring_jdbc_3_2_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_springframework_spring_jms_3_2_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_springframework_spring_orm_3_2_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_springframework_spring_test_3_2_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_springframework_spring_tx_3_2_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_springframework_spring_web_3_2_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/src/main/java/dao/UserDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/src/main/java/model/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/src/main/java/tools/MysqlTools.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/src/main/resources/ApplicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/src/main/resources/UserDao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/src/main/resources/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/src/test/java/dao/BaseTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/src/test/java/dao/TestDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/src/test/java/tools/MysqlToolsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/target/classes/ApplicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/target/classes/UserDao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/target/classes/dao/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/target/classes/model/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/target/classes/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/target/classes/tools/MysqlTools.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/target/test-classes/dao/BaseTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/target/test-classes/dao/TestDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/target/test-classes/tools/MysqlToolsTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/target/testSpring03-0.0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestSpringMyBatis/testSpring03.iml" afterPath="" />
+    <list default="true" id="9e8f24cf-a575-4c46-acd8-cf5a0a696924" name="Default" comment="Merge branch 'master' of https://github.com/xujunmeng/Test-Project-master&#10;&#10;# Conflicts:&#10;#&#9;TestAlgorithm/.idea/workspace.xml&#10;#&#9;datashiftTest/.idea/misc.xml&#10;#&#9;datashiftTest/.idea/workspace.xml&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/优先级队列/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/优先级队列/PriorityQ.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/双端链表/FirstLastList.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/双端链表/Link.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/双端链表/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/有序链表/Link.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/有序链表/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/有序链表/SortedList.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/栈/数组实现栈数据结构/BracketChecker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/栈/数组实现栈数据结构/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/栈/数组实现栈数据结构/StackX.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/栈/链表实现栈数据结构/Link.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/栈/链表实现栈数据结构/LinkList.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/栈/链表实现栈数据结构/LinkStack.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/栈/链表实现栈数据结构/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/练习题/小球下落问题/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/队列/用数组实现的队列/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/队列/用数组实现的队列/Queue.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/队列/用链表实现的队列/FirstLastList.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/队列/用链表实现的队列/Link.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/队列/用链表实现的队列/LinkQueue.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/队列/用链表实现的队列/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/优先级队列/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/优先级队列/PriorityQ.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/单链表/Link.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/单链表/LinkList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/双端链表/FirstLastList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/双端链表/Link.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/双端链表/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/有序链表/Link.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/有序链表/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/有序链表/SortedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/栈/数组实现栈数据结构/BracketChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/栈/数组实现栈数据结构/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/栈/数组实现栈数据结构/StackX.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/栈/链表实现栈数据结构/Link.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/栈/链表实现栈数据结构/LinkList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/栈/链表实现栈数据结构/LinkStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/栈/链表实现栈数据结构/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/练习题/小球下落问题/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/队列/用数组实现的队列/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/队列/用数组实现的队列/Queue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/队列/用链表实现的队列/FirstLastList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/队列/用链表实现的队列/Link.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/队列/用链表实现的队列/LinkQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/队列/用链表实现的队列/Main.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/datashiftTest.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/src/main/java/com/csf/ada/datashift/common/constants/Constants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/src/main/java/com/csf/ada/datashift/dao/fund/AbstractFundDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/src/main/java/com/csf/ada/datashift/dao/news/AnnouncementTransportDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/src/main/java/com/csf/ada/datashift/dao/news/NewsAnnouncementTransportBaseDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/src/main/java/com/csf/ada/datashift/dao/security/BaseDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/src/main/java/com/csf/ada/datashift/entity/dict/DictMarket.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/src/main/java/com/csf/ada/datashift/entity/dict/DictSecurityType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/src/main/java/com/csf/ada/datashift/entity/news/Announcement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/src/main/java/com/csf/ada/datashift/jmslistener/AbstractMessageListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/src/main/java/com/csf/ada/datashift/jmslistener/CommonMessageListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/src/main/java/com/csf/ada/datashift/jmslistener/FundCommonMessageListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/src/main/java/com/csf/ada/datashift/service/AnnouncementServiceNew.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/src/main/java/com/csf/ada/datashift/service/FundService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/src/main/java/com/csf/ada/datashift/utils/DataShiftUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/common/constants/Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/dao/fund/AbstractFundDao$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/dao/fund/AbstractFundDao$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/dao/fund/AbstractFundDao$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/dao/fund/AbstractFundDao$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/dao/fund/AbstractFundDao$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/dao/fund/AbstractFundDao$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/dao/fund/AbstractFundDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/dao/news/AnnouncementTransportDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/dao/news/NewsAnnouncementTransportBaseDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/dao/security/BaseDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/entity/dict/DictMarket.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/entity/dict/DictSecurityType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/entity/news/Announcement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/jmslistener/AbstractMessageListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/jmslistener/CommonMessageListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/jmslistener/FundCommonMessageListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/service/AnnouncementServiceNew.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/service/FundService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datashiftTest/target/classes/com/csf/ada/datashift/utils/DataShiftUtil.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/target/classes/BubbleSort/Main.class" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/BubbleSort/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/target/classes/BubbleSort/Test1.class" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/BubbleSort/Test1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/target/classes/InsertSort/Main.class" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/InsertSort/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/target/classes/InsertSort/Test1.class" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/InsertSort/Test1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/target/classes/SelectSort/Main.class" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/SelectSort/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/target/classes/SelectSort/Test1.class" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/SelectSort/Test1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/target/classes/单链表/Link.class" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/单链表/Link.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/target/classes/单链表/LinkList.class" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/单链表/LinkList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/target/classes/单链表/Main.class" afterPath="$PROJECT_DIR$/TestAlgorithm/target/classes/单链表/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/.idea/libraries/Maven__com_google_guava_guava_13_0.xml" afterPath="$PROJECT_DIR$/TestAlgorithm/.idea/libraries/Maven__com_google_guava_guava_13_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/TestAlgorithm/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterPath="$PROJECT_DIR$/TestAlgorithm/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/TestAlgorithm/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/.idea/workspace.xml" afterPath="$PROJECT_DIR$/TestAlgorithm/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/src/main/java/BubbleSort/Main.java" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/BubbleSort/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/src/main/java/BubbleSort/Test1.java" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/BubbleSort/Test1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/src/main/java/InsertSort/Main.java" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/InsertSort/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/src/main/java/SelectSort/Main.java" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/SelectSort/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlgorithm/src/main/java/单链表/Main.java" afterPath="$PROJECT_DIR$/TestAlgorithm/src/main/java/单链表/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestMultiThread/.idea/workspace.xml" afterPath="$PROJECT_DIR$/TestMultiThread/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestThread/.idea/workspace.xml" afterPath="$PROJECT_DIR$/TestThread/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datashiftTest/.idea/misc.xml" afterPath="$PROJECT_DIR$/datashiftTest/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datashiftTest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/datashiftTest/.idea/workspace.xml" />
     </list>
     <ignored path="intelliJ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,7 +147,18 @@
     <favorites_list name="intelliJ" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/datashiftTest/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32967034">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,11 +181,12 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1620" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -144,6 +213,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -163,24 +234,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intelliJ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Project-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestJerseySpring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,7 +397,7 @@
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_PATH" value="C:\Program Files\Git\bin\bash.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="" />
@@ -573,6 +628,13 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <configuration default="true" type="RebarEunitRunConfigurationType" factoryName="Erlang Rebar Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="command" value="eunit" />
       <option name="skipDependencies" value="true" />
@@ -691,6 +753,8 @@
       <workItem from="1520844917888" duration="25000" />
       <workItem from="1520847288300" duration="610000" />
       <workItem from="1520929762962" duration="104000" />
+      <workItem from="1550032502772" duration="17000" />
+      <workItem from="1551344759003" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1520843171837</created>
@@ -708,26 +772,27 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4686000" />
+    <option name="totallyTimeSpent" value="4850000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1620" height="920" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52832246" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18589744" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18573265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286445" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -739,11 +804,11 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -774,6 +839,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datashiftTest/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32967034">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding />
         </state>
       </provider>

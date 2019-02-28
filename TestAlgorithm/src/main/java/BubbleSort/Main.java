@@ -14,11 +14,31 @@ import com.google.common.collect.Lists;
  */
 public class Main {
 
-	
+	@Test
+	public void test11() {
+		long[] arr = {77,99,44,55,22,88,11,00,66,33};
+		bubbleSort2222(arr);
+		for (long a : arr) {
+			System.out.println(a);
+		}
+	}
+
+	public static void bubbleSort2222(long[] arr) {
+
+		for (int i = arr.length - 1; i > 1; i--) {
+			for (int j = 0; j < i; j++) {
+				if (arr[j] > arr[j+1]) {
+					long temp = arr[j];
+					arr[j] = arr[j+1];
+					arr[j+1] = temp;
+				}
+			}
+		}
+	}
+
 	public static void bubbleSort(long[] arr){
-		int count = arr.length;
-		for(int outer = count - 1 ;outer > 1 ;outer --){
-			for(int inner = 0 ; inner < count - 1 ;inner++){
+		for(int outer = arr.length - 1; outer > 1 ;outer --){
+			for(int inner = 0; inner < outer; inner++){
 				if(arr[inner] > arr[inner + 1]){
 				      long temp = arr[inner];
 				      arr[inner] = arr[inner+1];
