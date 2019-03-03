@@ -11,14 +11,14 @@ public class EmailEvent extends ApplicationEvent {
 
     private String text;
 
-    public EmailEvent(Object source, String address, String text) {
-        super(source);
-        this.address = address;
-        this.text = text;
-    }
-
     public EmailEvent(Object source) {
         super(source);
+    }
+
+    public EmailEvent(String address, String text) {
+        super(address);
+        this.address = address;
+        this.text = text;
     }
 
     public String getAddress() {

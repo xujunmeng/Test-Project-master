@@ -1,8 +1,5 @@
 package 守护线程.实例二;
 
-import java.io.File;
-import java.io.FileOutputStream;
-
 /**
 @author junmeng.xu
 @date  2016年8月22日上午11:40:48
@@ -23,17 +20,4 @@ public class Main{
 	}
 	
 
-}
-class TestRunnable implements Runnable {
-	public void run() {
-		try {
-			//守护线程阻塞1秒后运行
-			Thread.sleep(1000);
-			File f = new File("D://test.txt");
-			FileOutputStream os = new FileOutputStream(f, true);
-			os.write("daemon".getBytes());
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
 }

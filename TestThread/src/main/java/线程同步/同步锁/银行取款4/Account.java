@@ -3,6 +3,10 @@ package 线程同步.同步锁.银行取款4;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
+ *
+ * 使用Lock对象时每个lock对象对应一个account对象，一样可以保证对于同一个account对象，
+ * 同一时刻只能有一个线程能进入临界区
+ *
  * @author junmeng.xu
  * @date 2016年5月18日下午6:11:28
  */

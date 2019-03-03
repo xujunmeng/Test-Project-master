@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 import org.junit.Test;
 
@@ -19,6 +20,16 @@ public class Collect {
 		users.add(u2);
 		users.add(u3);
 		
+	}
+
+	@Test
+	public void test2() {
+		try {
+			int i = 1/0;
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			System.out.println(e);
+		}
 	}
 	
 

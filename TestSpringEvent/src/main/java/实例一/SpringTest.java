@@ -13,7 +13,9 @@ public class SpringTest {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
 
         //创建一个ApplicationEvent对象
-        EmailEvent event = new EmailEvent("hello", "xxxx@163.com", "This is a test content");
+        EmailEvent event = new EmailEvent("xxxx@163.com", "This is a test content");
+
+        System.out.println("SpringTest 当前线程名称 : " + Thread.currentThread().getName());
 
         //主动触发该事件
         context.publishEvent(event);

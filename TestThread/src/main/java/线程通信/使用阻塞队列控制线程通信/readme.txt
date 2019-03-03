@@ -1,0 +1,3 @@
+虽然BlockingQueue也是Queue的子接口，但他的主要用途并不是作为容器，而是作为线程同步的工具。
+BlockingQueue具有一个特征：当生产者线程试图向BlockingQueue中放入元素时，如果该队列已满，则该线程被阻塞；
+当消费者线程试图从BlockingQueue中取出元素时，如果该队列已空，则该线程被阻塞。

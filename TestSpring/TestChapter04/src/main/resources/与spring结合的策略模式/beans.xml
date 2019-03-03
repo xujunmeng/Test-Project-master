@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <bean id="completeStrategyMap" class="与spring结合的策略模式.service.CompleteStrategyFactory">
+        <property name="completeStrategyMap">
+            <map>
+                <entry key="1" value-ref="activityCompleteStrategy"/>
+                <entry key="2" value-ref="futuresCompleteStrategy"/>
+                <entry key="3" value-ref="unifyCompleteStrategy"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="activityCompleteStrategy" class="与spring结合的策略模式.service.impl.ActivityCompleteStrategy"/>
+    <bean id="futuresCompleteStrategy" class="与spring结合的策略模式.service.impl.FuturesCompleteStrategy"/>
+    <bean id="unifyCompleteStrategy" class="与spring结合的策略模式.service.impl.UnifyCompleteStrategy"/>
+
+</beans>

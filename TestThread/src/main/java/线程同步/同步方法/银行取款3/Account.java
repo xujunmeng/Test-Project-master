@@ -1,12 +1,28 @@
 package 线程同步.同步方法.银行取款3;
 /**
-@author junmeng.xu
-@date  2016年5月18日下午5:49:29
+ *
+ * 对于synchronized修饰的实例方法(非static方法)而言，无须显式指定同步监视器，
+ * 同步方法的同步监视器是this，也就是调用该方法的对象
+ *
+ * 不可变类总是线程安全的，因为他的对象状态不可改变，单可变对象需要额外的方法来保证其线程安全。
+ *
+ *
+ *
+ * @author junmeng.xu
+ * @date  2016年5月18日下午5:49:29
  */
 public class Account {
 
+	/**
+	 * 账户编号
+	 */
 	private String accountNo;
+
+	/**
+	 * 账户余额
+	 */
 	private double balance;
+
 	public Account(String accountNo, double balance) {
 		this.accountNo = accountNo;
 		this.balance = balance;
@@ -30,32 +46,29 @@ public class Account {
 	}
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
+		if (this == obj) {
 			return true;
-		if (obj == null)
+		}
+		if (obj == null) {
 			return false;
-		if (getClass() != obj.getClass())
+		}
+		if (getClass() != obj.getClass()) {
 			return false;
+		}
 		Account other = (Account) obj;
 		if (accountNo == null) {
-			if (other.accountNo != null)
+			if (other.accountNo != null) {
 				return false;
-		} else if (!accountNo.equals(other.accountNo))
+			}
+		} else if (!accountNo.equals(other.accountNo)) {
 			return false;
+		}
 		return true;
 	}
-	
-	//因为账户余额不允许随便修改，所以取消balance属性的setter方法
-	
-	//提供一个线程安全draw方法来完成取钱操作
+
 	public synchronized void draw(double drawAmount){
 		if(getBalance() >= drawAmount){
 			//可以取
-			try {
-				Thread.sleep(1);
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
 			System.out.println(Thread.currentThread().getName() + "取钱成功 ! 吐出钞票为 : " + drawAmount);
 			balance = balance - drawAmount;
 			System.out.println("\t余额为 : " + balance);

@@ -5,9 +5,14 @@ package 线程通信.存款取款;
  */
 public class DepositThread extends Thread {
 
-	//模拟用户账户
+	/**
+	 * 用户账户
+	 */
 	private Account account;
-	//当前存钱线程所希望存款的钱数
+
+	/**
+	 * 当前存钱线程所希望存款的钱数
+	 */
 	private double depositAmount;
 	
 	public DepositThread(String name, Account account, double depositAmount){

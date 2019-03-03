@@ -12,14 +12,14 @@ public class ProducerTest {
     public static void main(String[] args) {
 
         Properties properties = new Properties();
-        properties.put(PropertyKeyConst.ProducerId, "PID_junmeng_1");
-        properties.put(PropertyKeyConst.AccessKey, "LTAIglSpYNV3EvoA");
-        properties.put(PropertyKeyConst.SecretKey, "O0K1Lcs4DEnGHtzDtZc3kLUKDD8w7x");
+        properties.put(PropertyKeyConst.ProducerId, "PID_junmeng_2");
+        properties.put(PropertyKeyConst.AccessKey, "LTAIUMThXTW47YlF");
+        properties.put(PropertyKeyConst.SecretKey, "3qO7VN3buOyMpA9kB0pS7UexdU9mAO");
         Producer producer = ONSFactory.createProducer(properties);
         //在发送消息前，必须调用start方法来启动Producer,只需调用一次即可
         producer.start();
         //String topic, String tags, byte[] body
-        Message msg = new Message("test_topic_junmeng_1", "TagA", "ORDERID_100", "Hello MQ".getBytes());
+        Message msg = new Message("test_topic_junmeng_2", "TagA", "ORDERID_100", "Hello MQ".getBytes());
         SendResult sendResult = producer.send(msg);
         System.out.println("Send Message success. Message ID is: " + sendResult.getMessageId());
 

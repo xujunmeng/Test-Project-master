@@ -15,7 +15,7 @@ import java.util.Date;
  * 这个注解，这个是懒加载的注解，可以不写，但是如果把value改为true，定时任务是不会执行的。
  * 因为加上之后，spring容器初始化的时候就不会触发这个定时任务了。
  */
-@Component("scheduledManager")
+@Component
 @Lazy(value = false)
 public class ScheduledManager {
 
