@@ -34,16 +34,4 @@
       </plugin>
     </plugins>
   </build>
-  <distributionManagement>
-    <repository>
-      <id>releases</id>
-      <name>remote release repo</name>
-      <url>http://192.168.0.221:8081/nexus/content/repositories/releases/</url>
-    </repository>
-    <snapshotRepository>
-      <id>snapshots</id>
-      <name>remote snapshots repo</name>
-      <url>http://192.168.0.221:8081/nexus/content/repositories/snapshots/</url>
-    </snapshotRepository>
-  </distributionManagement>
 </project>
