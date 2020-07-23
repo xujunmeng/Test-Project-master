@@ -1,10 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e8f24cf-a575-4c46-acd8-cf5a0a696924" name="Default" comment="Merge branch 'master' of https://github.com/xujunmeng/Test-Project-master&#10;&#10;# Conflicts:&#10;#&#9;TestAlgorithm/.idea/workspace.xml&#10;#&#9;datashiftTest/.idea/misc.xml&#10;#&#9;datashiftTest/.idea/workspace.xml&#10;">
+    <list default="true" id="9e8f24cf-a575-4c46-acd8-cf5a0a696924" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/ConcurrentLinkedDeque/测试二/AddTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/ConcurrentLinkedDeque/测试二/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/ConcurrentLinkedDeque/测试二/RemoveTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/ConcurrentLinkedQueue/测试用例一/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/ConcurrentLinkedQueue/测试用例二/Dinner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/ConcurrentLinkedQueue/测试用例二/Test01ConcurrentLinkedQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/InheritableThreadLocal/第一个实例/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/InheritableThreadLocal/第二个实例/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/callableFuture/a/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/callableFuture/a/Task.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/callableFuture/a/Task1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/callableFuture/a/Task2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/callableFuture/a/Task3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/callableFuture/b/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/callableFuture/b/SingleMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/callableFuture/c/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/callableFuture/把类中的方法改为一个线程/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/completionService/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/countDownLatch/实例一/CountDownLatchDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/countDownLatch/实例一/Worker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/countDownLatch/实例二/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/countDownLatchExecutor/CountDownLatchDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/countDownLatchExecutor/Worker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/cyclicBarrier用法/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/cyclicBarrier用法/Test2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/cyclicBarrier用法/Test3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/cyclicBarrier用法/Test4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/executor/实例一/MyThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/executor/实例一/NewFixedThreadPool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/executor/实例二/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/executorsubmit/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/executorsubmit/RunnableTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/semaphore用法/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/synchronizedMethod/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/synchronizedMethod/Tickets.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/多线程中的锁/信号量/非公平信号量/SemaphoreDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/多线程中的锁/读写锁/CacheTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/多线程中的锁/锁中断/BussinessClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/多线程中的锁/锁中断/TestInterruptibly.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/阻塞队列和生产者消费者模式/FileCrawler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/阻塞队列和生产者消费者模式/FileFilter的使用/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/阻塞队列和生产者消费者模式/FileFilter的使用/MyFileFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/main/java/阻塞队列和生产者消费者模式/Indexer.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/http/java-http-demo/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/http/java-http-demo/src/main/java/com/alibaba/ons/message/example/TestHttpConsumerApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/http/java-http-demo/src/main/java/com/alibaba/ons/message/example/TestHttpProducerApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/http/java-http-demo/src/main/java/com/alibaba/ons/message/example/consumer/HttpMQConsumer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/http/java-http-demo/src/main/java/com/alibaba/ons/message/example/consumer/SimpleMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/http/java-http-demo/src/main/java/com/alibaba/ons/message/example/guide/HttpConsumer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/http/java-http-demo/src/main/java/com/alibaba/ons/message/example/guide/HttpProducer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/http/java-http-demo/src/main/java/com/alibaba/ons/message/example/guide/SignGuide.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/http/java-http-demo/src/main/java/com/alibaba/ons/message/example/producer/HttpMQProducer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/http/java-http-demo/src/main/java/com/alibaba/ons/message/example/util/MD5.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/http/java-http-demo/src/main/resources/consumer/consumer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/http/java-http-demo/src/main/resources/log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/http/java-http-demo/src/main/resources/producer/producer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/http/java-http-demo/src/main/resources/user.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/main/java/com/alibaba/ons/message/example/MqConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/main/java/com/alibaba/ons/message/example/consumer/MQConsumer4Spring.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/main/java/com/alibaba/ons/message/example/consumer/MessageListenerImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/main/java/com/alibaba/ons/message/example/consumer/SimpleMQConsumer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/main/java/com/alibaba/ons/message/example/consumer/SimpleOrderConsumer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/main/java/com/alibaba/ons/message/example/producer/LocalTransactionCheckerImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/main/java/com/alibaba/ons/message/example/producer/MQProducer4Spring.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/main/java/com/alibaba/ons/message/example/producer/MQTimerProducer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/main/java/com/alibaba/ons/message/example/producer/SimpleMQProducer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/main/java/com/alibaba/ons/message/example/producer/SimpleOrderProducer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/main/java/com/alibaba/ons/message/example/producer/SimpleTransactionProducer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/main/resources/consumer/consumer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/main/resources/log4j.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/main/resources/producer/producer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/test/java/com/aliyun/openservices/client/MQTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/test/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/src/test/resources/logback.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestMultiThread/.idea/workspace.xml" afterPath="$PROJECT_DIR$/TestMultiThread/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestThread/.idea/workspace.xml" afterPath="$PROJECT_DIR$/TestThread/.idea/workspace.xml" />
     </list>
     <ignored path="intelliJ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,8 +141,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1620" />
-    <option name="height" value="920" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -93,9 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -114,40 +188,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intelliJ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Project-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestThread" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intelliJ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Project-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestThread" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,6 +204,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -623,6 +669,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -667,6 +726,7 @@
       <workItem from="1520929762962" duration="104000" />
       <workItem from="1550032502772" duration="17000" />
       <workItem from="1551344759003" duration="313000" />
+      <workItem from="1595485865460" duration="93000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1520843171837</created>
@@ -680,31 +740,40 @@
       <option name="project" value="LOCAL" />
       <updated>1520844932933</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'master' of https://github.com/xujunmeng/Test-Project-master&#10;&#10;# Conflicts:&#10;#&#9;TestAlgorithm/.idea/workspace.xml&#10;#&#9;datashiftTest/.idea/misc.xml&#10;#&#9;datashiftTest/.idea/workspace.xml&#10;">
+      <created>1595485897565</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595485897565</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5016000" />
+    <option name="totallyTimeSpent" value="5109000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1620" height="920" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52832246" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24100257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2409188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286445" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3278867" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -715,7 +784,6 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -736,7 +804,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Merge branch 'master' of https://github.com/xujunmeng/Test-Project-master&#10;&#10;# Conflicts:&#10;#&#9;TestAlgorithm/.idea/workspace.xml&#10;#&#9;datashiftTest/.idea/misc.xml&#10;#&#9;datashiftTest/.idea/workspace.xml&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/xujunmeng/Test-Project-master&#10;&#10;# Conflicts:&#10;#&#9;TestAlgorithm/.idea/workspace.xml&#10;#&#9;datashiftTest/.idea/misc.xml&#10;#&#9;datashiftTest/.idea/workspace.xml&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -754,10 +823,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestThread/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/Aliware-MQ-demo-master/http/java-http-demo/src/main/resources/producer/producer.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43529412">
-          <caret line="1695" column="13" selection-start-line="1695" selection-start-column="13" selection-end-line="1695" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.3326886">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aliware-MQ-demo-master/tcp/java-tcp-demo/target/classes/producer/producer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37717602">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
