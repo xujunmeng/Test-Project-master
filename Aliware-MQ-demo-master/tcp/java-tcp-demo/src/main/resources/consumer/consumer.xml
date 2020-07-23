@@ -6,8 +6,8 @@
         <property name="properties">
             <map>
                 <entry key="ConsumerId" value="CID_junmeng_1"/> <!-- CID,请替换 -->
-                <entry key="AccessKey" value="LTAIglSpYNV3EvoA"/> <!-- ACCESS_KEY,请替换 -->
-                <entry key="SecretKey" value="O0K1Lcs4DEnGHtzDtZc3kLUKDD8w7x"/><!-- SECRET_KEY,请替换 -->
+                <entry key="AccessKey" value="null"/> <!-- ACCESS_KEY,请替换 -->
+                <entry key="SecretKey" value="null"/><!-- SECRET_KEY,请替换 -->
                 <!--PropertyKeyConst.ONSAddr 请根据不同Region进行配置
                   公网测试: http://onsaddr-internet.aliyun.com/rocketmq/nsaddr4client-internet
                   公有云生产: http://onsaddr-internal.aliyun.com:8080/rocketmq/nsaddr4client-internal
