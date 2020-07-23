@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>3.2.8.RELEASE</spring.version>
+        <spring.version>5.0.6.RELEASE</spring.version>
 
     </properties>
 
@@ -139,17 +139,5 @@
             </plugin>
         </plugins>
     </build>
-    <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>remote release repo</name>
-            <url>http://192.168.0.221:8081/nexus/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>remote snapshots repo</name>
-            <url>http://192.168.0.221:8081/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
 
 </project>
